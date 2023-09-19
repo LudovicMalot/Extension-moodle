@@ -17,6 +17,10 @@ body {
     padding: 2rem 1rem 1rem;
 }
 
+a {
+    color: white;
+}
+
 #toggleUiDiv {
     margin-top: 0rem;
     margin: 2rem;

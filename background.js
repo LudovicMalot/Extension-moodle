@@ -239,10 +239,9 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
 	if (message.type === "get-response-data") {
 		const queryQuestion = message.data;
 		let answer = questionsData[queryQuestion];
-
+		let closestQuestion = queryQuestion;
 		if (!answer) {
 			let maxSimilarity = 0;
-			let closestQuestion = null;
 
 			for (const question in questionsData) {
 				const similarity = jaccardSimilarity(queryQuestion, question);
@@ -251,9 +250,9 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
 					closestQuestion = question;
 				}
 			}
-			answer = closestQuestion ? questionsData[closestQuestion] : "Question not found";
-		}
 
-		sendResponse({ data: answer });
+			answer = closestQuestion ? questionsData[closestQuestion] : "Question non trouvé";
+		}
+		sendResponse({ data: answer, question: closestQuestion });
 	}
 });
