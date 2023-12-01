@@ -225,6 +225,109 @@ const questionsData = {
 	"L'Université fait appel à une entreprise de nettoyage pour l'entretien régulier de ses locaux": "Externalisation",
 	"Audi fait fabriquer ses fixations par l'entreprise A.Raymond": "spécialité",
 	"Les raisons de sous-traiter ne sont pas justifiables, socialement": "Faux",
+	"Une famille est blessée par une chaudière qui a explosé dans un appartement de location à la montagne": "Contrat",
+	"Un avion fait un mauvais atterrissage sur une route ; des passagers sont blessés, des automobilistes également":
+		"Les 2",
+	"La victime d'un dommage causé par un salarié doit prouver la faute du commettant": "Faux",
+	"La société Fabrik a engagé une nouvelle assistante comptable. La société apprend après quelques mois que cette personne a été licenciée pour faute grave par son précédent employeur pour avoir détourné des fonds de l'entreprise. Vous pensez, qu'il y a":
+		"erreur",
+	"En cas de retard de livraison, le prix du contrat sera minoré de 3% par semaine de retard": "Pénale",
+	"En cas d'impossibilité d'exécution de la prestation, le contrat sera résolu": "Résolutoire",
+	"En cas d'explosion en vol lors du lancement, ArianeGroup s'engage à reprogrammer un lancement dans des délais raisonnables, compte tenu du temps de fabrication des satellites à mettre en orbite":
+		"Limitative de responsabilité",
+	"Quelle responsabilité pouvez-vous invoquer … Une bouteille d’eau gazeuse explose dans les rayons d’un supermarché":
+		"Responsabilité du producteur",
+	"Lorsque deux personnes négocient un contrat..":
+		"Elles ne sont pas encore engagées l'une envers l'autre, Elles doivent être de bonne foi",
+	"En dehors de vous, qui peut commettre des dommages vous obligeant à réparation ?":
+		"Vos enfants, Vos subordonnés, Votre ordinateur",
+	"Un contrat ne sera valable que si les contractants": "Ont la capacité juridique",
+	"Quelle responsabilité pouvez-vous invoquer … Un chien, confié à un ami, mord un passant": "Responsabilité de l’ami",
+	"Vous pouvez être responsable du dommage causé par la chaudière de l'appartement que vous louez": "Vrai",
+	"Quelle responsabilité pouvez-vous invoquer … Un malade mental blesse volontairement son voisin lors d’une crise ?":
+		"Responsabilité délictuelle",
+	"Par principe, les contrats sont consensuels": "Vrai",
+	"Le sous-traitant peut aussi être nommé le maître d'ouvrage": "Faux",
+	"Les dispositions législatives concernant les contrats sont majoritairement supplétives": "Vrai",
+	"Un cyclomoteur, suite à une inattention, percute un piéton ?": "Responsabilité du fait des choses",
+	"La sous-traitance doit faire l'objet d'un accord par l'Inspection du travail": "Faux",
+	"L'astreinte est une condamnation à payer une somme d'argent tant que la prestation due n'est pas exécutée": "Vrai",
+	"L'enregistrement des actes permet de leur donner une date certaine": "Vrai",
+	"Il est possible d'atténuer l'obligation de résultat en insérant des clauses limitatives de responsabilité dans le contrat":
+		"Vrai",
+	"Le contrat solennel doit être un acte authentique": "Faux",
+	"Depuis le 1e mars 2020, vous êtes en pourparlers avec un fournisseur pour produire un nouveau composant unique pour lequel vous souhaitez déposer un brevet. Vous n’avez pas conclu de convention de confidentialité. Que risquez-vous ?":
+		"Vous faire « souffler » le brevet par votre fournisseur, Ne plus avoir le droit de déposer le brevet car il y a divulgation",
+	"Celui qui confie le travail peut être nommé": "Client final, Donneur d'ordre, Maître d'ouvrage, Bénéficiaire",
+	"Juridiquement, l’offre …":
+		"Est une situation de volonté où une partie manifeste son intention de se tenir pour liée si l’autre partie accepte sa proposition, Peut être explicite ou tacite",
+	"En droit commun, lorsqu'une offre est finalement acceptée…": "Le contrat est ferme et définitif",
+	"L'employeur est responsable des dommages causés par ses salariés dans le cadre des fonctions exercées par celui-ci":
+		"Vrai",
+	"Un salarié se fait livrer ses repas par un traiteur, sur son lieu de travail et sur le compte de l'entreprise. Il a passé un contrat avec le traiteur. Le salarié estime que c'est à l'entreprise de payer. Lorsque le traiteur présente la facture à l'entreprise, l'entreprise lui dit que cela ne la concerne pas. Pour quel motif ?":
+		"Capacité : le salarié n'a pas la capacité juridique d'engager l'entreprise",
+	"La réparation est la mise en œuvre de la responsabilité contractuelle et consiste au versement de dommages et intérêts":
+		"Vrai",
+	"Le contrat de prêt avec la banque pour l'achat d'un logement":
+		"accessoire, solennel, unilatéral, adhésion, onéreux, exécution successive à durée déterminée",
+	"Seul le donneur d'ordre est avantagé par la sous-traitance": "Faux",
+	"LoueTou envoie une mise en demeure de paiement à l'entreprise Fabrik, son client. LoueTou est en attente du versement du loyer du mois de mai, payable d'avance. Nous sommes début juin. La comptable de Fabrik était en congés au mois de mai. Qualifiez la situation":
+		"Simple oubli",
+	"En l'absence de dommage, on peut mettre en œuvre la responsabilité civile": "Faux",
+	"La résolution ne rompt le contrat que pour le futur": "Faux",
+	"La résiliation est une sanction adaptée aux contrats à exécution instantanée": "Faux",
+	"La nullité entraîne la disparition du contrat et la remise en état initial": "Vrai",
+	"Il est possible d'atténuer l'obligation de résultat en insérant des clauses limitatives de responsabilité dans le contrat.":
+		"Vrai",
+	"La responsabilité pénale a pour but de protéger les intérêts de la victime": "Faux",
+	"Quelle responsabilité pouvez-vous invoquer … Un enfant de 6 ans en vacances chez ses grands-parents blesse un voisin":
+		"Responsabilité des parents",
+	"La responsabilité civile repose sur une infraction": "Faux",
+	"Vous blessez légèrement un piéton en ouvrant votre parapluie": "La preuve des actes juridiques est forcément écrite",
+	"Tout contractant dispose d'un délai de réflexion avant de s'engager": "Faux",
+	"Le paiement se prouve par tout moyen": "Vrai",
+	"Une clause d'un contrat doit être formulée précisément": "Vrai",
+	"Le contrat de travail stable que vous espérez à la suite de votre diplôme":
+		"principal, solennel, synallagmatique, adhésion, onéreux, exécution successive à durée indéterminée",
+	"Le contrat de sous-traitance est un contrat solennel": "Faux",
+	"Il appartient au créancier de l'obligation de résultat de prouver que le débiteur n'a pas exécuté ses obligations":
+		"Faux",
+	"Dans quels cas pouvez-vous être responsable pénalement sans être l'auteur direct de l'infraction ?":
+		"Complicité, Tentative, Infraction commise par un subordonné dont vous avez le contrôle",
+	"Le prix du loyer fera l'objet d'une révision, chaque année à la date anniversaire du bail. La base de calcul de la majoration sera le prix moyen des loyers du secteur":
+		"Indexation",
+	"L'acheteur assumera les risques de perte sur les produits à compter de leur réception sur la plateforme logistique de Vélizy":
+		"Transfert des risques",
+	"Les litiges seront confiés au Tribunal de commerce de Lyon": "Attributive de compétence",
+	"Quelle responsabilité pouvez-vous invoquer … Suite à un « tacle », un joueur de football brise le tibia d’un adversaire":
+		"Responsabilité délictuelle",
+	"La nullité relève exclusivement du pouvoir du juge": "Faux",
+	"La différence entre le contrat de vente et la sous-traitance, c'est le SAV (service après-vente)": "Faux",
+	"Ces situations sont elles possibles ?":
+		"Il y a responsabilité pénale sans responsabilité délictuelle, Il y a responsabilité pénale avec responsabilité délictuelle, Il y a responsabilité délictuelle sans responsabilité pénale",
+	"Quelles sanctions peut prononcer un juge pour l'inexécution partielle ou complète d'un contrat ?":
+		"Accorder une réduction de prix, Prononcer des dommages et intérêts, Prononcer la résolution du contrat",
+	"Le contrat de cautionnement (ou caution) est un contrat réel : c'est le dépôt d'une somme": "Faux",
+	"Le sous-traitant est soumis au principe de loyauté (bonne foi)": "Vrai",
+	"Le principe de base de la responsabilité civile est la réparation du dommage": "Vrai",
+	"L'obligation de conseil du vendeur professionnel est une obligation de moyens": "Vrai",
+	"Lorsqu'une clause est déclarée nulle, le contrat reste valable, en principe": "Vrai",
+	"Lorsqu'une partie ment à l'autre pour obtenir son acception, il y a violence": "Faux",
+	"Les banques qui constituent des Groupements d'Intérêts Economiques (GIE) pour leur informatique": "Externalisation",
+	"SPIE fait appel à une PME locale pour des travaux d'électricité à l'hôpital suite à réponse à appel d'offres":
+		"Capacité",
+	"En l'absence de dommage, peut être mise en œuvre …": "La responsabilité pénale",
+	"Le chantage sera considéré comme un vice du consentement : la violence": "Vrai",
+	"Quels sont les caractères de la force majeure, désormais en vigueur ?": "Non contrôlable, Imprévisible",
+	"Un contrat de gré à gré doit juridiquement être écrit pour être valide": "Faux",
+	"Le contrat de caution disparaît dès la fin du contrat principal": "Vrai",
+	"Le sous-traitant peut aussi être nommé le maître d'ouvrage": "Faux",
+	"Lorsque Léna a commandé son salon, il était convenu que le prix total devait être payé avant la livraison. Elle a versé 70% du prix et elle considère qu'elle devrait être livrée car la clause est abusive. Le magasin refuse de livrer tant qu'il n'est pas intégralement payé. Qui a raison ?":
+		"Le magasin car Léna ne tient pas l'engagement pris",
+	"La bonne foi n'est plus nécessaire lors de l'exécution du contrat puisqu'elle est exigée lors de sa formation (depuis 2016)":
+		"Faux",
+	"Quelle responsabilité pouvez-vous invoquer … Un rocher tombe d’une falaise et blesse un passant.":
+		"Responsabilité du fait des choses pour le propriétaire du terrain",
 };
 
 function jaccardSimilarity(str1, str2) {
