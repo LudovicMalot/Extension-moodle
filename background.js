@@ -328,6 +328,23 @@ const questionsData = {
 		"Faux",
 	"Quelle responsabilité pouvez-vous invoquer … Un rocher tombe d’une falaise et blesse un passant.":
 		"Responsabilité du fait des choses pour le propriétaire du terrain",
+	"Vous pouvez être responsable civilement même si vous n'êtes pas l'auteur du dommage": "Vrai",
+	"Votre professeur de droit des obligations vous demande de lui rapporter au prochain cours un contrat accessoire. Que lui rapportez-vous ?":
+		"Un contrat de cautionnement",
+	"Il est permis de s'emparer de documents à l'insu de leur propriétaire pour prouver une infraction": "Faux",
+	"Il y a infraction": "Quand un texte le prévoit",
+	"Luc a acheté par correspondance des objets fragiles qui vont lui être livrés par la poste. Le vendeur lui a indiqué que si la marchandise est endommagée, elle lui sera remboursée.":
+		"Lors de la réception des marchandises en bon état par Luc",
+	"En droit, la notion de responsabilité est sous-tendue par la notion d'obligation": "Vrai",
+	"Le donneur d'ordre est celui qui décide de la prestation": "Vrai",
+	"Votre abonnement annuel de transport (transports en commun de votre ville)":
+		"principal, consensuel, synallagmatique, adhésion, onéreux, exécution successive à durée déterminée",
+	"La responsabilité pénale a pour but de protéger l'intérêt général": "Vrai",
+	"L'auteur du dommage ne peut jamais être exonéré de sa responsabilité": "Faux",
+	"Une promesse de contrat": "N'engage que celui qui promet",
+	"Un acte sous seing privé peut être reconnu comme preuve": "Vrai",
+	"L'obligation de ne pas faire concurrence à son employeur dans un contrat de travail est une obligation de…":
+		"Ne pas faire, Résultat",
 };
 
 function jaccardSimilarity(str1, str2) {
