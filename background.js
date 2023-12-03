@@ -14,11 +14,9 @@ const questionsData = {
 	"Un restaurant sert des huîtres pas fraîches à ses clients. Ils sont hospitalisés ": "Contrat",
 	"Le principe de base de la responsabilité civile est la réparation du dommage": "Vrai",
 	"Un restaurant sert des huîtres pas fraîches à ses clients. Ils sont hospitalisés → Contrat": "Contrat",
-	"Contrat : Classification  - B1 Contrat classification 20'": "",
 	"Un contrat n'est valable que s'il est écrit": "Faux",
 	"Seul le contrat d'assurance est un contrat aléatoire": "Vrai",
 	"Contrat de gré à gré ou contrat négocié, c'est pareil": "Vrai",
-	"B2 Contrat classification durée 15'": "",
 	"Vous pouvez rompre à tout moment, moyennant un délai de préavis, un contrat à durée indéterminée": "Vrai",
 	"Vous pouvez rompre à tout moment, moyennant un délai de préavis, un contrat à durée déterminée": "Faux",
 	"Actes juridiques : définition": "Réponses",
@@ -27,7 +25,6 @@ const questionsData = {
 	'Un des avantages de faire la distinction "Résultat/Moyen" est la charge de la preuve': "Obligation de faire ",
 	"La force de l'obligation est inscrite dans la loi": "Faux",
 	"L'astreinte est utile dans quel cas ?": "Vrai",
-	"Test15-C3A- Actes juridiques\\Obligations": "",
 	"L'obligation de livrer un bien au domicile de l'acheteur est une obligation de…": "Faire , Résultat",
 	"L'obligation de transférer la propriété de la chose vendue est une obligation de": "Donner , Résultat",
 	"Dans quels cas le débiteur d'une obligation de résultat peut s'exonérer d'exécuter son obligation ?":
@@ -38,7 +35,6 @@ const questionsData = {
 	"Quels sont les grands principes à la base de la théorie du contrat ?":
 		"liberté, autonomie de la volonté, bonne foi, consensualisme",
 	"L'obligation de conseil du vendeur professionnel est une obligation de moyens": "Vrai",
-	"Test16-C3B- Classifications": "Réponse",
 	"Le contrat de cautionnement (ou caution) est un contrat réel : c'est le dépôt d'une somme": "Faux",
 	"Un contrat synallagmatique permet un moyen de pression si l'autre partie n'exécute pas ses obligations": "Vrai",
 	"Un contrat de gré à gré doit juridiquement être écrit pour être valide": "Faux",
@@ -49,7 +45,6 @@ const questionsData = {
 	"La caution de vos parents pour votre logement étudiant": "accessoire - solennel - unilatéral - adhésion - gratuit",
 	"Le contrat de prêt avec la banque pour l'achat d'un logement":
 		"accessoire - solennel - unilatéral - adhésion - onéreux - exécution successive à durée déterminée",
-	"Test17-C3B- Classifications": "",
 	"Le chèque de dépôt de garantie (un mois de loyer) pour votre logement":
 		"accessoire - réel - unilatéral - adhésion - gratuit",
 	"Le principe est qu'un contrat à exécution successive à durée déterminée ne peut être rompu avant son terme": "Vrai",
@@ -61,13 +56,11 @@ const questionsData = {
 		"Principal - consensuel - synallagmatique -gré à gré - onéreux - exécution instantanée",
 	"Le contrat d'assurance risque souscrit pour les risques concernant votre logement habituel":
 		"aléatoire - consensuel - synallagmatique - adhésion - onéreux - exécution successive à durée indéterminée",
-	"C Contrat Avant contrat-Forme-Preuve 15'": "",
 	"Lorsque vous entrez dans cette boulangerie, il y a des baguettes alignées dans des bacs. L'étiquette des prix vous informe que cette baguette rustique vaut 1,05€.":
 		"Une offre ferme et définitive , Une offre tacite",
 	"Un acte authentique est un acte solennel": "Vrai",
 	"Ce n’est pas parce qu’on n’en a pas la preuve que le contrat n’est pas valable": "Vrai",
 	"En droit civil, la preuve, c’est l’écrit, par principe": "Vrai",
-	"Test18-C3C- Avant contrat - Forme - Preuve": "",
 	"Depuis le 1e mars 2020, vous êtes en pourparlers avec un fournisseur pour produire un nouveau composant unique pour lequel vous souhaitez déposer un brevet. Vous n’avez pas conclu de convention de confidentialité. Que risquez-vous ?":
 		"Vous faire « soufler » le brevet par votre fournisseur, Ne plus avoir le droit de déposer le brevet car il y a divulgation",
 	"Tout contractant dispose d'un délai de réflexion avant de s'engager": "Faux",
@@ -83,7 +76,6 @@ const questionsData = {
 		"Vrai",
 	"Tous les contrats bénéficient désormais d'un délai de rétractation ou de réflexion voire les 2.": "Vrai",
 	"3 conditions sont nécessaires à la formation du contrat": "Vrai",
-	"Test19-C3D- Formation validité fond": "Réponse",
 	"La bonne foi est exigée pour les parties lors de la formation du contrat": "Vrai",
 	"La société Fabrik a recruté un technicien spécialiste de la cyber sécurité. Ce dernier s'avère rapidement incompétent. Nous découvrons qu'il a porté des informations fausses sur son diplôme. Qualifiez la situation":
 		"dol",
@@ -94,7 +86,6 @@ const questionsData = {
 	"Le chantage sera considéré comme un vice du consentement : la violence": "Vrai",
 	"Un salarié se fait livrer ses repas par un traiteur, sur son lieu de travail et sur le compte de l'entreprise. Il a passé un contrat avec le traiteur. Le salarié estime que c'est à l'entreprise de payer. Lorsque le traiteur présente la facture à l'entreprise, l'entreprise lui dit que cela ne la concerne pas. Pour quel motif ?":
 		"Capacité : le salarié n'a pas la capacité juridique d'engager l'entreprise",
-	"Test20-C3CD Formation du contrat": "",
 	"Juridiquement, l’offre …":
 		"Est une situation de volonté où une partie manifeste son intention de se tenir pour liée si l’autre partie accepte sa proposition, Peut être explicite ou tacite",
 	"Comme je ne peux pas prouver l'existence de mon contrat, celui-ci n'existe pas": "Faux",
@@ -103,7 +94,6 @@ const questionsData = {
 	"L'écrit électronique est moins fort que l'acte manuscrit": "Faux",
 	"Il y a une obligation de conseil, de renseignement, de confidentialité durant les pourparlers": "Vrai",
 	"Lorsqu'une partie ment à l'autre pour obtenir son acception, il y a violence": "Faux",
-	"E Contrat Exécution 15'": "Réponse",
 	"Lors de l'exécution du contrat, on retrouve la notion de loyauté vue lors de la formation": "Vrai",
 	"Un contractant dispose d'une action préventive pour suspendre son obligation s'il apprend de source sure que son co-contractant n'exécutera pas la sienne.":
 		"Vrai",
@@ -111,7 +101,6 @@ const questionsData = {
 		"imprévisible , non-contrôlable",
 	"Un contrat doit s'exécuter tel que défini lors de sa formation sauf":
 		"cas de force majeure , si les parties se mettent d'accord pour le résilier , situation imprévisible , si une des parties n'exécute pas son obligation",
-	"Test21- C3E Exécution": "",
 	"Seule la force majeure peut exonérer une partie de remplir ses obligations": "Faux",
 	"Quels sont les caractères de la force majeure, désormais en vigueur ?": "Non contrôlable, Imprévisible",
 	"Lorsqu'un élément inconnu des parties et imprévisible au moment de la formation du contrat, impacte fortement une des parties, il est possible d'imposer la renégociation du contrat.":
@@ -122,12 +111,10 @@ const questionsData = {
 		"Circonstances rendant excessivement onéreuses l'exécution de la prestation, En cas de force majeure, Si le cocontractant n'effectue pas ses obligations",
 	"La bonne foi n'est plus nécessaire lors de l'exécution du contrat puisqu'elle est exigée lors de sa formation (depuis 2016)":
 		"Faux",
-	"F Clauses 20'": "",
 	"Un clause est forcément rédigée et elle doit être suffisamment précise": "Vrai",
 	"Une clause déclarée abusive annihile automatiquement le contrat": "Faux",
 	"Des clauses peuvent figurer sur des contrats auxquels vous adhérez et celles-ci ne vous seront pas applicables ! oups !":
 		"Vrai",
-	"Test22- C3F Clauses": "",
 	"L'acheteur assumera les risques de perte sur les produits à compter de leur réception sur la plateforme logistique de Vélizy":
 		"Transfert des risques,",
 	"Les litiges seront confiés au Tribunal de commerce de Lyon": "Attributive de compétence,",
@@ -146,7 +133,6 @@ const questionsData = {
 	"Quand ont lieu le transfert de propriété et le transfert des risques dans ce cas ?":
 		"Lors de la réception des marchandises en bon état par Luc",
 	"Une clause d'un contrat doit être formulée précisément": "Vrai",
-	"Test23-C3EF Exécution et clauses du contrat": "",
 	"Des clauses figurant aux conditions générales de ventes d'un commerçant peuvent ne pas vous être applicables":
 		"Vrai",
 	"Il y a transfert de propriété...": "Lorsque le vendeur et l'acheteur sont d'accord sur la chose et sur le prix",
@@ -165,10 +151,8 @@ const questionsData = {
 		"Non, n'a pas été jugée abusive",
 	"En cas d'impossibilité de livraison de l'article demandé, remplacement par un produit de fonctionnalité et qualité supérieure sans supplément de prix":
 		"Non, n'a pas été jugée abusive",
-	"G Contrat Fin 10'": "Réponse",
 	"Il appartient au créancier d'être vigilant et de réclamer son dû dans les délais": "Vrai",
 	"Le paiement signifie en droit signifie extinction des obligations": "Vrai",
-	"Test24-C3G Fin du contrat": "",
 	"Compenser une créance par une dette est un mode d'extinction des obligations": "Vrai",
 	"Une micro-entreprise a effectué une prestation de home staging dans votre résidence il y a 3 ans. Vous êtes très satisfait d'autant que vous n'avez jamais reçu la facture. Vous êtes libéré de tout paiement ?":
 		"Faux",
@@ -178,23 +162,17 @@ const questionsData = {
 	"Le paiement se définit juridiquement comme l'extinction des obligations": "Vrai",
 	"La confusion est un mode d'extinction des obligations qui consiste en la réunion de deux patrimoines en un seul":
 		"Vrai",
-	"H Sanctions 10'": "",
 	"Nullité et résolution, c'est pareil puisqu'il ont les mêmes effets": "Faux",
 	"Nullité et résolution ont les mêmes effets": "Vrai",
-	"Test25-C3H Sanctions": "",
-	"Quelles sanctions peut prononcer un juge pour l'inexécution partielle ou complète d'un contrat ?":
-		"Accorder une réduction de prix, Prononcer des dommages et intérêts, Prononcer la résolution du contrat",
 	"La nullité relève exclusivement du pouvoir du juge": "Faux",
 	"La résiliation est toujours prononcée par un juge": "Faux",
 	"La résolution sanctionnant la mauvaise exécution d'un contrat est toujours prononcée par un juge": "Vrai",
 	"La résiliation est une sanction adaptée aux contrats à exécution instantanée": "Faux",
 	"Résolution et nullité ont les mêmes effets mais pas les mêmes causes": "Vrai",
 	"La nullité est l'anéantissement du contrat pour violation des conditions de formation": "Vrai",
-	"A Sous-traitance : introduction et aspects économiques 15'": "Réponse",
 	"Maître d'ouvrage = fournisseur": "Faux",
 	"Maître d'ouvrage = donneur d'ordre": "Vrai",
 	"Maître d'ouvrage = maître d'oeuvre": "Faux",
-	"test26-C4A Sous-traitance généralités": "",
 	"Les banques qui constituent des Groupements d'Intérêts Economiques (GIE) pour leur informatique": "Externalisation,",
 	"SPIE fait appel à une PME locale pour des travaux d'électricité à l'hôpital suite à réponse à appel d'offres.":
 		"Capacité",
@@ -203,12 +181,9 @@ const questionsData = {
 	"Les prérogatives du donneur d'ordre sont :": "Décide de l’étendue de la prestation, Choisit le maître d'œuvre, Paie",
 	"La différence entre le contrat de travail et la sous-traitance c'est le lien de subordination : le sous-traitant est libre de sa méthode et de ses moyens":
 		"Vrai",
-	"Celui qui exécute le travail peut être nommé": "Sous-traitant, Maître d'œuvre",
-	"B Sous-traitance : aspects juridiques 10'": "",
 	"Il est conseillé de rédiger un écrit en cas de contrat d'entreprise, parce que..":
 		"Il faut définir la portée des obligations, il vaut mieux préciser les éléments du prix et des délais , il peut y avoir des clauses à préciser",
 	"Le contrat de sous-traitance est un contrat solennel": "Faux",
-	"Test27-C4B Sous-traitance aspects juridiques": "",
 	"Le contrat d'entreprise est le terme juridique, sous-traitance, le terme commun": "Vrai",
 	"La sous-traitance doit faire l'objet d'un accord par l'Inspection du travail": "Faux",
 	"Dans le cadre de la sous-traitance, en principe, c'est au donneur d'ordre d'assumer les défauts de sécurité du produit":
@@ -217,7 +192,6 @@ const questionsData = {
 	"Dans le cadre de la sous-traitance, en principe, c'est au sous-traitant d'assumer la responsabilité juridique de l'exécution de la prestation":
 		"Vrai",
 	"C'est au sous-traitant de respecter les délais": "Vrai",
-	"Test 28-C4AB Sous-traitance": "",
 	"La différence entre le contrat de vente et la sous-traitance, c'est le SAV (service après-vente)": "Faux",
 	"Pour une petite entreprise, il vaut mieux être sous-traitant : pas d'inconvénient. On travaille pour une grande entreprise et on n'a pas à s'occuper du carnet de commandes.":
 		"Faux",
@@ -283,7 +257,8 @@ const questionsData = {
 	"Quelle responsabilité pouvez-vous invoquer … Un enfant de 6 ans en vacances chez ses grands-parents blesse un voisin":
 		"Responsabilité des parents",
 	"La responsabilité civile repose sur une infraction": "Faux",
-	"Vous blessez légèrement un piéton en ouvrant votre parapluie": "La preuve des actes juridiques est forcément écrite",
+	"Vous blessez légèrement un piéton en ouvrant votre parapluie":
+		"La preuve des actes juridiques est forcément écrite, Délit (civil)",
 	"Tout contractant dispose d'un délai de réflexion avant de s'engager": "Faux",
 	"Le paiement se prouve par tout moyen": "Vrai",
 	"Une clause d'un contrat doit être formulée précisément": "Vrai",
@@ -306,7 +281,7 @@ const questionsData = {
 	"Ces situations sont elles possibles ?":
 		"Il y a responsabilité pénale sans responsabilité délictuelle, Il y a responsabilité pénale avec responsabilité délictuelle, Il y a responsabilité délictuelle sans responsabilité pénale",
 	"Quelles sanctions peut prononcer un juge pour l'inexécution partielle ou complète d'un contrat ?":
-		"Accorder une réduction de prix, Prononcer des dommages et intérêts, Prononcer la résolution du contrat",
+		"Accorder une réduction de prix, Prononcer des dommages et intérêts, Prononcer la résolution du contrat, Forcer l'exécution de la prestation sous astreinte",
 	"Le contrat de cautionnement (ou caution) est un contrat réel : c'est le dépôt d'une somme": "Faux",
 	"Le sous-traitant est soumis au principe de loyauté (bonne foi)": "Vrai",
 	"Le principe de base de la responsabilité civile est la réparation du dommage": "Vrai",
@@ -332,7 +307,7 @@ const questionsData = {
 	"Votre professeur de droit des obligations vous demande de lui rapporter au prochain cours un contrat accessoire. Que lui rapportez-vous ?":
 		"Un contrat de cautionnement",
 	"Il est permis de s'emparer de documents à l'insu de leur propriétaire pour prouver une infraction": "Faux",
-	"Il y a infraction": "Quand un texte le prévoit",
+	"Il y a infraction": "Quand un texte le prévoit, Quand certaines conditions sont remplies",
 	"Luc a acheté par correspondance des objets fragiles qui vont lui être livrés par la poste. Le vendeur lui a indiqué que si la marchandise est endommagée, elle lui sera remboursée.":
 		"Lors de la réception des marchandises en bon état par Luc",
 	"En droit, la notion de responsabilité est sous-tendue par la notion d'obligation": "Vrai",
@@ -345,6 +320,16 @@ const questionsData = {
 	"Un acte sous seing privé peut être reconnu comme preuve": "Vrai",
 	"L'obligation de ne pas faire concurrence à son employeur dans un contrat de travail est une obligation de…":
 		"Ne pas faire, Résultat",
+	"D'un point de vue strictement juridique, un contrat est…": "Une convention, Un accord de volonté, Un acte juridique",
+	"Quelle responsabilité pouvez-vous invoquer … Un anesthésiste, attaché à une clinique et subordonné au service de chirurgie commet une erreur technique sur un patient lors d’une opération":
+		"Responsabilité du chirurgien",
+	"La sanction de la responsabilité pénale est": "l'amende, L'emprisonnement",
+	"Quelle responsabilité pouvez-vous invoquer … Un danseur commet un faux-pas et fait tomber sa partenaire":
+		"Pas de responsabilité pour le danseur",
+	"La réparation en nature d'un dommage est toujours juridiquement possible": "Vrai",
+	"L'obligation de payer est une obligation de…": "Donner, Résultat",
+	"Celui qui exécute le travail peut être nommé": "Sous-traitant, Maître d'œuvre, Prestataire",
+	"Lorsque vous commettez un délit civil, la peine est l'amende ou la prison": "Faux",
 };
 
 function jaccardSimilarity(str1, str2) {
