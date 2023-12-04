@@ -340,6 +340,15 @@ function jaccardSimilarity(str1, str2) {
 	return intersection.size / union.size;
 }
 
+chrome.commands.onCommand.addListener(function (command) {
+	if (command === "hide_ui") {
+		chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
+			var activeTab = tabs[0];
+			chrome.tabs.sendMessage(activeTab.id, { command: command });
+		});
+	}
+});
+
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
 	if (message.type === "get-response-data") {
 		const queryQuestion = message.data;

@@ -115,6 +115,16 @@ document.addEventListener("mousemove", function (event) {
 		overlay.style.height = rect.height + "px";
 	}
 });
+let isHidden = false;
+
+chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
+	if (message.command === "hide_ui") {
+		if (uiDiv) {
+			uiDiv.style.display = isHidden ? "flex" : "none";
+		}
+		isHidden = !isHidden;
+	}
+});
 
 document.addEventListener("click", function (event) {
 	if (!selectToolActive) return;

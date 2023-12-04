@@ -10,6 +10,16 @@
 		"default_popup": "./popup/popup.html",
 		"default_icon": "logo.png"
 	},
+	"commands": {
+		"hide_ui": {
+			"suggested_key": {
+				"default": "Ctrl+Shift+H",
+				"mac": "Command+Shift+H"
+			},
+			"description": "Toggle the UI",
+			"global": true
+		}
+	},
 	"content_scripts": [
 		{
 			"matches": ["<all_urls>"],
