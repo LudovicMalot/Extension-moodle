@@ -126,6 +126,27 @@ chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
 	}
 });
 
+const buttonHideUi = document.createElement("button");
+buttonHideUi.id = "hideUi";
+buttonHideUi.textContent = "Hide";
+buttonHideUi.style.border = "none";
+buttonHideUi.style.position = "absolute";
+buttonHideUi.style.bottom = "10px";
+buttonHideUi.style.left = "10px";
+buttonHideUi.style.backgroundColor = "transparent";
+buttonHideUi.style.fontSize = "10px";
+buttonHideUi.onclick = () => {
+	if (isHidden) {
+		uiDiv.style.display = "flex";
+	} else {
+		uiDiv.style.display = "none";
+	}
+	console.log("clicked");
+	isHidden = !isHidden;
+};
+
+document.body.appendChild(buttonHideUi);
+
 document.addEventListener("click", function (event) {
 	if (!selectToolActive) return;
 
