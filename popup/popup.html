@@ -10,7 +10,14 @@
 	<body>
 		Activer l'extension :
 		<button id="toggleUiDiv"></button>
-		<p>Cacher l'UI avec <code>Cmd/Ctrl + Shift + H</code></p>
+		<div>
+			<p>Changer la position (en %)</p>
+			<p><i>il faut rafraichir la page après avoir sauvegarder</i></p>
+			<label for="top">position depuis le haut :</label> <input type="text" name="top" id="top" value="15" />
+			<label for="right"> position depuis la droite (100 cachera intégralement le popup à gauche) : </label
+			><input type="text" name="right" id="right" />
+			<button id="save">Sauvegarder</button>
+		</div>
 		<a href="https://github.com/LudovicMalot/Extension-moodle" target="_blank">Code Source sur GitHub</a>
 
 		<script src="popup.js"></script>
