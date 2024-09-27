@@ -10,7 +10,6 @@ const questionsData = {
 	"Un panneau publicitaire s'écroule sur un passant": "Délit (civil)",
 	"Une personne qui détient un droit sur une autre personne est dite…": "Un créancier",
 	"Vous cassez les lunettes de votre co équipier en jouant au volley": "Délit (civil)",
-	"Vous blessez légèrement un piéton en ouvrant votre parapluie": "Délit (civil)",
 	"Un restaurant sert des huîtres pas fraîches à ses clients. Ils sont hospitalisés ": "Contrat",
 	"Le principe de base de la responsabilité civile est la réparation du dommage": "Vrai",
 	"Un restaurant sert des huîtres pas fraîches à ses clients. Ils sont hospitalisés → Contrat": "Contrat",
@@ -176,7 +175,6 @@ const questionsData = {
 	"Les banques qui constituent des Groupements d'Intérêts Economiques (GIE) pour leur informatique": "Externalisation,",
 	"SPIE fait appel à une PME locale pour des travaux d'électricité à l'hôpital suite à réponse à appel d'offres.":
 		"Capacité",
-	"Celui qui confie le travail peut être nommé": "Bénéficiaire, Maître d'ouvrage",
 	"Seul le donneur d'ordre est avantagé par la sous-traitance": "Faux",
 	"Les prérogatives du donneur d'ordre sont :": "Décide de l’étendue de la prestation, Choisit le maître d'œuvre, Paie",
 	"La différence entre le contrat de travail et la sous-traitance c'est le lien de subordination : le sous-traitant est libre de sa méthode et de ses moyens":
@@ -222,34 +220,21 @@ const questionsData = {
 		"Responsabilité délictuelle",
 	"Par principe, les contrats sont consensuels": "Vrai",
 	"Le sous-traitant peut aussi être nommé le maître d'ouvrage": "Faux",
-	"Les dispositions législatives concernant les contrats sont majoritairement supplétives": "Vrai",
 	"Un cyclomoteur, suite à une inattention, percute un piéton ?": "Responsabilité du fait des choses",
-	"La sous-traitance doit faire l'objet d'un accord par l'Inspection du travail": "Faux",
 	"L'astreinte est une condamnation à payer une somme d'argent tant que la prestation due n'est pas exécutée": "Vrai",
-	"L'enregistrement des actes permet de leur donner une date certaine": "Vrai",
 	"Il est possible d'atténuer l'obligation de résultat en insérant des clauses limitatives de responsabilité dans le contrat":
 		"Vrai",
 	"Le contrat solennel doit être un acte authentique": "Faux",
-	"Depuis le 1e mars 2020, vous êtes en pourparlers avec un fournisseur pour produire un nouveau composant unique pour lequel vous souhaitez déposer un brevet. Vous n’avez pas conclu de convention de confidentialité. Que risquez-vous ?":
-		"Vous faire « souffler » le brevet par votre fournisseur, Ne plus avoir le droit de déposer le brevet car il y a divulgation",
 	"Celui qui confie le travail peut être nommé": "Client final, Donneur d'ordre, Maître d'ouvrage, Bénéficiaire",
-	"Juridiquement, l’offre …":
-		"Est une situation de volonté où une partie manifeste son intention de se tenir pour liée si l’autre partie accepte sa proposition, Peut être explicite ou tacite",
 	"En droit commun, lorsqu'une offre est finalement acceptée…": "Le contrat est ferme et définitif",
 	"L'employeur est responsable des dommages causés par ses salariés dans le cadre des fonctions exercées par celui-ci":
 		"Vrai",
-	"Un salarié se fait livrer ses repas par un traiteur, sur son lieu de travail et sur le compte de l'entreprise. Il a passé un contrat avec le traiteur. Le salarié estime que c'est à l'entreprise de payer. Lorsque le traiteur présente la facture à l'entreprise, l'entreprise lui dit que cela ne la concerne pas. Pour quel motif ?":
-		"Capacité : le salarié n'a pas la capacité juridique d'engager l'entreprise",
 	"La réparation est la mise en œuvre de la responsabilité contractuelle et consiste au versement de dommages et intérêts":
 		"Vrai",
-	"Le contrat de prêt avec la banque pour l'achat d'un logement":
-		"accessoire, solennel, unilatéral, adhésion, onéreux, exécution successive à durée déterminée",
-	"Seul le donneur d'ordre est avantagé par la sous-traitance": "Faux",
 	"LoueTou envoie une mise en demeure de paiement à l'entreprise Fabrik, son client. LoueTou est en attente du versement du loyer du mois de mai, payable d'avance. Nous sommes début juin. La comptable de Fabrik était en congés au mois de mai. Qualifiez la situation":
 		"Simple oubli",
 	"En l'absence de dommage, on peut mettre en œuvre la responsabilité civile": "Faux",
 	"La résolution ne rompt le contrat que pour le futur": "Faux",
-	"La résiliation est une sanction adaptée aux contrats à exécution instantanée": "Faux",
 	"La nullité entraîne la disparition du contrat et la remise en état initial": "Vrai",
 	"Il est possible d'atténuer l'obligation de résultat en insérant des clauses limitatives de responsabilité dans le contrat.":
 		"Vrai",
@@ -259,48 +244,19 @@ const questionsData = {
 	"La responsabilité civile repose sur une infraction": "Faux",
 	"Vous blessez légèrement un piéton en ouvrant votre parapluie":
 		"La preuve des actes juridiques est forcément écrite, Délit (civil)",
-	"Tout contractant dispose d'un délai de réflexion avant de s'engager": "Faux",
-	"Le paiement se prouve par tout moyen": "Vrai",
-	"Une clause d'un contrat doit être formulée précisément": "Vrai",
-	"Le contrat de travail stable que vous espérez à la suite de votre diplôme":
-		"principal, solennel, synallagmatique, adhésion, onéreux, exécution successive à durée indéterminée",
-	"Le contrat de sous-traitance est un contrat solennel": "Faux",
 	"Il appartient au créancier de l'obligation de résultat de prouver que le débiteur n'a pas exécuté ses obligations":
 		"Faux",
 	"Dans quels cas pouvez-vous être responsable pénalement sans être l'auteur direct de l'infraction ?":
 		"Complicité, Tentative, Infraction commise par un subordonné dont vous avez le contrôle",
-	"Le prix du loyer fera l'objet d'une révision, chaque année à la date anniversaire du bail. La base de calcul de la majoration sera le prix moyen des loyers du secteur":
-		"Indexation",
-	"L'acheteur assumera les risques de perte sur les produits à compter de leur réception sur la plateforme logistique de Vélizy":
-		"Transfert des risques",
-	"Les litiges seront confiés au Tribunal de commerce de Lyon": "Attributive de compétence",
 	"Quelle responsabilité pouvez-vous invoquer … Suite à un « tacle », un joueur de football brise le tibia d’un adversaire":
 		"Responsabilité délictuelle",
-	"La nullité relève exclusivement du pouvoir du juge": "Faux",
-	"La différence entre le contrat de vente et la sous-traitance, c'est le SAV (service après-vente)": "Faux",
 	"Ces situations sont elles possibles ?":
 		"Il y a responsabilité pénale sans responsabilité délictuelle, Il y a responsabilité pénale avec responsabilité délictuelle, Il y a responsabilité délictuelle sans responsabilité pénale",
 	"Quelles sanctions peut prononcer un juge pour l'inexécution partielle ou complète d'un contrat ?":
 		"Accorder une réduction de prix, Prononcer des dommages et intérêts, Prononcer la résolution du contrat, Forcer l'exécution de la prestation sous astreinte",
-	"Le contrat de cautionnement (ou caution) est un contrat réel : c'est le dépôt d'une somme": "Faux",
-	"Le sous-traitant est soumis au principe de loyauté (bonne foi)": "Vrai",
-	"Le principe de base de la responsabilité civile est la réparation du dommage": "Vrai",
-	"L'obligation de conseil du vendeur professionnel est une obligation de moyens": "Vrai",
-	"Lorsqu'une clause est déclarée nulle, le contrat reste valable, en principe": "Vrai",
-	"Lorsqu'une partie ment à l'autre pour obtenir son acception, il y a violence": "Faux",
-	"Les banques qui constituent des Groupements d'Intérêts Economiques (GIE) pour leur informatique": "Externalisation",
 	"SPIE fait appel à une PME locale pour des travaux d'électricité à l'hôpital suite à réponse à appel d'offres":
 		"Capacité",
 	"En l'absence de dommage, peut être mise en œuvre …": "La responsabilité pénale",
-	"Le chantage sera considéré comme un vice du consentement : la violence": "Vrai",
-	"Quels sont les caractères de la force majeure, désormais en vigueur ?": "Non contrôlable, Imprévisible",
-	"Un contrat de gré à gré doit juridiquement être écrit pour être valide": "Faux",
-	"Le contrat de caution disparaît dès la fin du contrat principal": "Vrai",
-	"Le sous-traitant peut aussi être nommé le maître d'ouvrage": "Faux",
-	"Lorsque Léna a commandé son salon, il était convenu que le prix total devait être payé avant la livraison. Elle a versé 70% du prix et elle considère qu'elle devrait être livrée car la clause est abusive. Le magasin refuse de livrer tant qu'il n'est pas intégralement payé. Qui a raison ?":
-		"Le magasin car Léna ne tient pas l'engagement pris",
-	"La bonne foi n'est plus nécessaire lors de l'exécution du contrat puisqu'elle est exigée lors de sa formation (depuis 2016)":
-		"Faux",
 	"Quelle responsabilité pouvez-vous invoquer … Un rocher tombe d’une falaise et blesse un passant.":
 		"Responsabilité du fait des choses pour le propriétaire du terrain",
 	"Vous pouvez être responsable civilement même si vous n'êtes pas l'auteur du dommage": "Vrai",
@@ -342,11 +298,11 @@ const questionsData = {
   "En droit civil, depuis 2015, les animaux sont des...": "êtres sensibles",
   "Le nom d'une entreprise est toujours le nom de sa marque": "Faux",
   "A quelle classification de \"chose\" appartient une bouteille Vittel dans le supermarché ?": "Consomptible,Forgible",
-  "Le droit identifie la personne selon les caractéristiques suivantes...": "La personne peut être propriétaire (droit patrimonial),La personne peut avoir des dettes,La personne morale peut être propriétaire",
+  "Le droit identifie la personne selon les caractéristiques suivantes...": "La personne peut être propriétaire (droit patrimonial),La personne peut avoir des dettes,La personne morale peut être propriétaire, La personne est titulaire de droits (droit subjectif),La personne est soumise à des obligations (droits objectif et subjectifs,La personne peut être morale",
   "Le droit de créance est un lien de droit entre une chose et une personne": "Faux",
   "Une chose peut être propriétaire d'une autre chose. Par exemple, un chat peut être propriétaire d'une maison": "Faux",
-  "Les biens énoncés ci-dessous sont-ils meubles ou immeubles ?": "Les fauteuils d'un cinéma -> immeuble,Un réfrigérateur -> Meuble,Une action de SA -> Meuble",
-  "Les biens énoncés ci-dessous sont-ils fongibles ou non fongibles ?": "Une bouteille de gaz à la station service -> Fongible,Une oeuvre d'art -> Non fongible,Un quintal de blé -> Fongible",
+  "Les biens énoncés ci-dessous sont-ils meubles ou immeubles ?": "Les fauteuils d'un cinéma -> immeuble,Un réfrigérateur -> Meuble,Une action de SA -> Meuble,Un verger -> immeuble,Un mobilhome -> Meuble,Un terrain -> immeuble",
+  "Les biens énoncés ci-dessous sont-ils fongibles ou non fongibles ?": "Une bouteille de gaz à la station service -> Fongible,Une oeuvre d'art -> Non fongible,Un quintal de blé -> Fongible, x chez Ikéa -> Fongible, sculpture x -> Non fongible,véhicule occasion -> Non fongible,Une sculpture de Modigliani -> Non fongible",
   "A priori, le droit défend vos libertés individuelles.": "Vrai",
   "Le droit subjectif ...": "regroupe les droits qui naissent sur la tête d'une personne en particulier,est en accord avec le droit objectif",
   "Le lien juridique entre une personne et une chose est le droit de propriété": "Vrai",
@@ -704,7 +660,6 @@ const questionsData = {
   "La propriété industrielle englobe la propriété intellectuelle": "Faux",
   "Le droit d’auteur dure": "70 ans après le décès de l’auteur",
   "La règle de droit s'applique aux situations juridiques": "Vrai",
-  "Quelle responsabilité pouvez-vous invoquer … Un anesthésiste, attaché à une clinique et subordonné au service de chirurgie commet une erreur technique sur un patient lors d’une opération": "Responsabilité du chirurgien",
   "Le tribunal compétent pour juger des litiges sur la propriété d'un brevet est": "Le tribunal judiciaire"
 };
 
@@ -719,7 +674,7 @@ function jaccardSimilarity(str1, str2) {
 chrome.commands.onCommand.addListener(function (command) {
 	if (command === "hide_ui") {
 		chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
-			var activeTab = tabs[0];
+			let activeTab = tabs[0];
 			chrome.tabs.sendMessage(activeTab.id, { command: command });
 		});
 	}
