@@ -80,7 +80,7 @@ const answerDiv = document.createElement("div");
 answerDiv.id = "answer";
 Object.assign(answerDiv.style, {
     display: "block",
-    textAlign: "center",
+    textAlign: "left",
     backgroundColor: "#e8f6f3",
     border: "1px solid #a3e4d7",
     borderRadius: "0.5rem",
@@ -216,7 +216,8 @@ function handleClick(event) {
     console.log("Selected question:", questionText);
 
     chrome.runtime.sendMessage({ type: "get-response-data", data: questionText }, (response) => {
-        answerDiv.innerHTML = response.data;
+
+        answerDiv.innerHTML = "- " + response.data.replace(/,/g, "<br> - ");
         questionDiv.innerHTML = response.question;
         let responses = response.data.split(",");
         // Recursive function to traverse DOM tree
