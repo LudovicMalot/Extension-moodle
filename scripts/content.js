@@ -186,7 +186,7 @@ chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
 
 const buttonHideUi = document.createElement("button");
 buttonHideUi.id = "hideUi";
-buttonHideUi.textContent = "Hide";
+buttonHideUi.textContent = "Cacher";
 buttonHideUi.style.border = "none";
 buttonHideUi.style.position = "absolute";
 buttonHideUi.style.bottom = "10px";
@@ -196,10 +196,11 @@ buttonHideUi.style.fontSize = "10px";
 buttonHideUi.onclick = () => {
     if (isHidden) {
         uiDiv.style.display = "flex";
+        buttonHideUi.textContent = "Cacher";
     } else {
         uiDiv.style.display = "none";
+        buttonHideUi.textContent = "Afficher";
     }
-    console.log("clicked");
     isHidden = !isHidden;
 };
 
