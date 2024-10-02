@@ -413,7 +413,7 @@ const questionsData = {
   "Quel est le tribunal compétent pour statuer des litiges entre l'employeur et son employé ?": "Le conseil de prud'hommes",
   "Il y a contrat de travail…": "En fonction des conditions de fait dans lesquelles est exercée une activité,S'il existe un lien de subordination",
   "Seule la loi s'impose en droit du travail": "Faux",
-  "En cas de conflit lié à une grève dans l'entreprise, le tribunal compétent sera": "",
+  "En cas de conflit lié à une grève dans l'entreprise, le tribunal compétent sera": "Le Tribunal judiciaire",
   "Comme dans tout contrat, la bonne foi est un fondemet du contrat de travail": "Vrai",
   "Tous les contrats de travail doivent être écrits": "Vrai",
   "Constituent des obligations de l'employeur": "Vous fournir du travail,Vous payer un salaire,Vous assurer un minimum de formation,Assurer votre reclassement",
