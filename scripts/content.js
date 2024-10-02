@@ -216,38 +216,72 @@ function handleClick(event) {
     console.log("Selected question:", questionText);
 
     chrome.runtime.sendMessage({ type: "get-response-data", data: questionText }, (response) => {
-
         answerDiv.innerHTML = "- " + response.data.replace(/,/g, "<br> - ");
         questionDiv.innerHTML = response.question;
         let responses = response.data.split(",");
-        // Recursive function to traverse DOM tree
-        function findAndClick(element, searchText) {
+    
+        // Function to count occurrences of a text in the DOM
+        function countOccurrences(element, searchText) {
+            let count = 0;
             if (element.childNodes.length > 0) {
-                element.childNodes.forEach((child) => findAndClick(child, searchText));
+                element.childNodes.forEach((child) => count += countOccurrences(child, searchText));
             } else if (element.nodeType === Node.TEXT_NODE) {
-                // Convert the nodeValue and searchText to lowercase for case-insensitive matching
-                let nodeValueLower = element.nodeValue.toLowerCase();
-                let searchTextLower = searchText.toLowerCase();
-
-                if (nodeValueLower == searchTextLower) {
-                    // Simulate a click event with propagation
-                    let event = new MouseEvent("click", {
-                        bubbles: true,
-                        cancelable: true,
-                    });
-                    element.parentNode.dispatchEvent(event);
+                let nodeValueLower = element.nodeValue.toLowerCase().trim();
+                let searchTextLower = searchText.toLowerCase().trim();
+                if (nodeValueLower === searchTextLower) {
+                    count++;
+                }
+            }
+            return count;
+        }
+    
+        // Function to highlight text in red
+        function highlightText(element, searchText) {
+            if (element.childNodes.length > 0) {
+                element.childNodes.forEach((child) => highlightText(child, searchText));
+            } else if (element.nodeType === Node.TEXT_NODE) {
+                let nodeValueLower = element.nodeValue.toLowerCase().trim();
+                let searchTextLower = searchText.toLowerCase().trim();
+                if (nodeValueLower === searchTextLower) {
+                    let span = document.createElement('span');
+                    span.style.backgroundColor = 'red';
+                    span.style.color = 'white';
+                    span.textContent = element.nodeValue;
+                    element.parentNode.replaceChild(span, element);
                 }
             }
         }
-
+    
         responses.forEach((response) => {
-            // Trim any white spaces around the text
             response = response.trim();
-
-            // Start from the body and look for elements containing the response text
-            findAndClick(dynamicDocument.body, response);
+            let occurrences = countOccurrences(dynamicDocument.body, response);
+            
+            if (occurrences > 1) {
+                // If the text appears more than once, highlight it in red
+                highlightText(dynamicDocument.body, response);
+            } else if (occurrences === 1) {
+                // If the text appears only once, click it (using the original findAndClick function)
+                findAndClick(dynamicDocument.body, response);
+            }
         });
     });
+    
+    // Keep the original findAndClick function for single occurrences
+    function findAndClick(element, searchText) {
+        if (element.childNodes.length > 0) {
+            element.childNodes.forEach((child) => findAndClick(child, searchText));
+        } else if (element.nodeType === Node.TEXT_NODE) {
+            let nodeValueLower = element.nodeValue.toLowerCase().trim();
+            let searchTextLower = searchText.toLowerCase().trim();
+            if (nodeValueLower === searchTextLower) {
+                let event = new MouseEvent("click", {
+                    bubbles: true,
+                    cancelable: true,
+                });
+                element.parentNode.dispatchEvent(event);
+            }
+        }
+    }
 
     // Deactivate the select tool
     toggleSelectTool();

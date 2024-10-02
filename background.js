@@ -390,7 +390,7 @@ const questionsData = {
   "Quelles sont les propositions fausses à propos du principe \"pollueur-payeur\" ?": "Le principe n'intervient qu'a posteriori (après un dommage),Le principe ne vise qu'à la réparation des dommages écologiques",
   "Le plan de prévention des risques technologiques (PPRT) est un outil de...": "Maîtrise de l'urbanisation aux abords de certaines installations industrielles à haut risque",
   "Ne sont pas inscrits dans la Constitution française, les principes environnementaux…": "utilisation durable,Complémentarité environnement",
-  "En droit français, sont des finalités du développement durable, d'un point de vue juridique...": "Lutte contre le changement climatique,Préservation de la biodiversité, milieux et ressources,Cohésion sociale et solidarité entre territoires et générations",
+  "En droit français, sont des finalités du développement durable, d'un point de vue juridique...": "Lutte contre le changement climatique,Préservation de la biodiversité&#44; milieux et ressources,Cohésion sociale et solidarité entre territoires et générations",
   "Le GIEC est …": "est équivalent à IPCC,Le Groupe d'Experts Intergouvernemental sur l'Evolution du Climat",
   "Les \"catastrophes écologiques\" enregistrées depuis la prise en compte de l'environnement au niveau international concernent les secteurs…": "Nucléaire,Industrie chimique,Industrie pétrolière",
   "Le principe de précaution … (cocher les propositions exactes)": "Vise à éviter des dommages à l'environnement ou la santé",
