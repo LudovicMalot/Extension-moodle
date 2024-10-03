@@ -660,7 +660,16 @@ const questionsData = {
   "La propriété industrielle englobe la propriété intellectuelle": "Faux",
   "Le droit d’auteur dure": "70 ans après le décès de l’auteur",
   "La règle de droit s'applique aux situations juridiques": "Vrai",
-  "Le tribunal compétent pour juger des litiges sur la propriété d'un brevet est": "Le tribunal judiciaire"
+  "Le tribunal compétent pour juger des litiges sur la propriété d'un brevet est": "Le tribunal judiciaire",
+  "SMIC signifie Salaire Minimum Interprofessionnel Garanti" : "Faux",
+"En 2024, le SMIC horaire brut est à plus de ..." : "10 euros",
+"La structure officielle en charge des chômeurs se nomme depuis le 1e janvier 2024" : "France Travail",
+"SMIC signifie" : "Salaire Minimum Interprofessionnel de Croissance",
+"Même si une grande part du droit social est du ressort des partenaires sociaux, l'Etat intervient cependant beaucoup dans le domaine... Dans quels champs ?" : "Arbitre du dialogue social, Règlementation du travail, Aide sociale, Allocations familiales,Retraites, Formation professionnelle, Insertion professionnelle, Droit du travail",
+"Le Droit social ne comprend pas..." : "Le droit de la consommation",
+"Le contrat de travail est hors champ du droit social" : "Faux",
+"Quelle proposition n'est pas conforme ?" : "Il est impératif que la mise en place de mesures sociales impacte favorablement l'économie",
+"Le SMIC est revu..." : "Au moins tous les ans au 1e janvier"
 };
 
 function jaccardSimilarity(str1, str2) {
