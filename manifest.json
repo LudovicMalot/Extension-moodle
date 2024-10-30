@@ -11,13 +11,12 @@
 		"default_icon": "logo.png"
 	},
 	"commands": {
-		"hide_ui": {
+		"toggle-select": {
 			"suggested_key": {
-				"default": "Ctrl+Shift+H",
-				"mac": "Command+Shift+H"
+				"default": "Ctrl+K",
+				"mac": "Command+K"
 			},
-			"description": "Toggle the UI",
-			"global": true
+			"description": "Toggle select tool"
 		}
 	},
 	"content_scripts": [
