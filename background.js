@@ -717,7 +717,7 @@ const questionsData = {
 	"Que signifie RGPD ?": "Règlement Général sur la Protection des données",
 	"L'analyse des risques du PIA est limité aux risques techniques": "Faux",
 	"Doivent être communiqués à la personne fichée":
-		"Finalité du traitement,Droit des personnes concernées,L'existence d'un transfert et les garanties mises en place, éventuellement,Droit d'introduire une réclamation auprès de la CNIL",
+		"Finalité du traitement,Droit des personnes concernées,L'existence d'un transfert et les garanties mises en place, éventuellement,Droit d'introduire une réclamation auprès de la CNIL, Identité du responsable du traitement, L'existence d'une prise de décision automatisée, Le destinataire des données, Durée de conservation des données",
 	"A compter du 25 mai 2018, des déclarations à la CNIL devront être effectuées préalablement à la mise en œuvre d’un traitement de données personnelles ?":
 		"Faux",
 	"Si une notification de violation de données a été effectuée à la CNIL, alors la personne concernée doit en être informé également.":
@@ -763,7 +763,8 @@ const questionsData = {
 	"Les droits intellectuels de l'auteur peuvent faire l'objet d'une vente": "Faux",
 	"Le droit d'auteur s'applique pour les logiciels": "Vrai",
 	"Comme le droit d'auteur s'applique, ses exceptions aussi. Vous pouvez donc faire une copie à usage privé du logiciel que vous avez codé pour votre employeur":
-		"",
+		"Faux",
+	'"Allo quoi" de Nabilla': "Faux",
 	"L'utilisateur de la base qui n'a pas le droit, par contrat de modifier la structure de la base dont il a l'exploitation et qui outrepasse les droits dont il dispose, peut être poursuivi pour ...":
 		"concurrence déloyale,contrefaçon",
 	"Un critère pour entrer dans le champ du droit d'auteur est l'originalité": "Vrai",
@@ -781,7 +782,7 @@ const questionsData = {
 	"A quoi sert un brevet ?": "À protéger une invention",
 	"La propriété industrielle …": "s'applique aux brevets, marques et dessins et modèles",
 	"à votre avis, les noms suivants sont-ils des marques ou des noms communs ?":
-		"compas -> nom commun,bic -> marque,vélo -> nom commun",
+		"compas -> nom commun,bic -> marque,vélo -> nom commun, thermos → marque, pédalo → marque, mobylette → marque, scotch -> marque, feutre -> nom commun, anorak → nom commun,klaxon → marque, vélux → marque, kärcher → marque",
 	"Vous souhaitez déposer la marque « Noix de Grenoble » pour des produits d’hygiène. Pouvez-vous le faire sans risque ?":
 		"Non, car il s’agit précisément d’une AOC",
 	"L'INPI vérifie la disponibilité de la marque": "Faux",
@@ -792,7 +793,7 @@ const questionsData = {
 		"Non, car il existe un risque de confusion avec Johnny Halliday, qui est le pseudonyme d’un chanteur célèbre",
 	"Quels sont les éléments susceptibles de constituer des droits antérieurs à celui du dépôt d'une marque":
 		"La dénomination sociale,Une autre marque,Un nom de domaine",
-	"Combien de temps dure le droit sur une marque ?": "10 ans, renouvelable indéfiniment",
+	"Combien de temps dure le droit sur une marque ?": "10 ans renouvelable indéfiniment",
 	"Un nom de domaine peut être déposé comme marque": "Vrai",
 	"Lorsqu'un graphiste crée un logotype pour une entreprise, que doit penser à faire cette dernière":
 		"Etablir un contrat de cession pour en avoir les droits d'auteur",
