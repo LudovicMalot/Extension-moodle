@@ -631,7 +631,7 @@ const questionsData = {
 	"Il n’existe aucune obligation légale de prendre en charge les coûts liés au télétravail pour l’employeur": "Vrai",
 	"L'employeur doit s'acquitter d'une contribution au financement des organisations syndicales.": "Vrai",
 	"L'employeur peut contrôler les e-mails des salariés...":
-		"Dans tous les cas, sauf les e-mails dont le titre indique “privé”",
+		"Dans tous les cas sauf les e-mails dont le titre indique “privé”",
 	"Ne peut pas être désigné DPO par l'entreprise":
 		"Le directeur Marketing,Le directeur des systèmes d'information de l'entreprise,Le responsable de traitement,Le sous-traitant du traitement",
 	"Une étude d'impact doit être rédigée...":
@@ -717,7 +717,7 @@ const questionsData = {
 	"Que signifie RGPD ?": "Règlement Général sur la Protection des données",
 	"L'analyse des risques du PIA est limité aux risques techniques": "Faux",
 	"Doivent être communiqués à la personne fichée":
-		"Finalité du traitement,Droit des personnes concernées,L'existence d'un transfert et les garanties mises en place, éventuellement,Droit d'introduire une réclamation auprès de la CNIL, Identité du responsable du traitement, L'existence d'une prise de décision automatisée, Le destinataire des données, Durée de conservation des données",
+		"Finalité du traitement,Droit des personnes concernées,L'existence d'un transfert et les garanties mises en place éventuellement,Droit d'introduire une réclamation auprès de la CNIL, Identité du responsable du traitement, L'existence d'une prise de décision automatisée, Le destinataire des données, Durée de conservation des données",
 	"A compter du 25 mai 2018, des déclarations à la CNIL devront être effectuées préalablement à la mise en œuvre d’un traitement de données personnelles ?":
 		"Faux",
 	"Si une notification de violation de données a été effectuée à la CNIL, alors la personne concernée doit en être informé également.":
@@ -961,6 +961,8 @@ const questionsData = {
 	"Depuis le 1e mars 2020, vous êtes en pourparlers avec un fournisseur pour produire un nouveau composant unique pour lequel vous souhaitez déposer un brevet. Vous n’avez pas conclu de convention de confidentialité. Que risquez-vous ?":"Vous faire « soufler » le brevet par votre fournisseur, Ne plus avoir le droit de déposer le brevet car il y a divulgation",
 	"L'arbitrage a comme avantage d'être plus rapide que le recours judiciaire":"Vrai",
 	"Un marque de nature à choquer, à caractère racial ou obscène est":"contraire à l'ordre public et aux bonnes mœurs",
+	"Quelle responsabilité pouvez-vous invoquer … Une bataille de polochons entre enfants de 12 ans tourne mal à l’internat et il en ressort deux blessés." : "Responsabilité de l’établissement",
+	"Pour que Peugeot puisse déposer son jingle sonore, l'entreprise a" : "représenté graphiquement la musique (partition)"
 };
 
 function jaccardSimilarity(str1, str2) {
