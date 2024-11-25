@@ -951,14 +951,16 @@ const questionsData = {
 	"Dans le cadre d’un contrat passé entre votre agence de communication et un grand groupe industriel, vous avez créé un nouveau logo pour votre client. Celui-ci peut, une fois le contrat exécuté, utiliser librement ce logo et le déposer comme marque puisqu'il a payé…":"Faux",
 	"La période d'essai":"A une durée limitée par la loi, Peut être renouvelée",
 	"Une clause de mobilité doit":"Préciser les zones géographiques possibles de mutation, Servir les intérêts de l'entreprise, Figurer au contrat de travail",
-	"Associer la rédaction de la clause à sa description": "retard de livraison prix 3% par semaine → Pénale, impossibilité d'exécution le contrat sera résolu → Résolutoire, explosion en vol lors du lancement ArianeGroup fabrication des satellites → Limitative de responsabilité, difficulté d'exécution renégocier les prix → Hardship, perte bagages compagnie  indemnité → Limitative de responsabilité, litige recours à un arbitre → Compromissoire",
+	"Associer la rédaction de la clause à sa description": "retard de livraison prix 3% par semaine → Pénale, impossibilité d'exécution le contrat sera résolu → Résolutoire, explosion en vol lors du lancement ArianeGroup fabrication des satellites → Limitative de responsabilité, difficulté d'exécution renégocier les prix → Hardship, perte bagages compagnie  indemnité → Limitative de responsabilité, litige recours à un arbitre → Compromissoire, retard de paiement majorée de 5% → Pénale, propriété du vendeur → Réserve de propriété, obtention du prêt → Suspensive",
 	"les droits patrimoniaux de l'auteur" : "sont limités dans le temps, sont transmissibles aux héritiers, peuvent faire l'objet d'une cession",
 	"Une source de niveau inférieur ne peut contrevenir à une source de niveau supérieur":"Vrai",
 	"La forme originale d'une bouteille de vin est protégée au titre":"du dessin et modèles, dessin et modèle mais le vin lui-même peut être protégé par une AOP le nom du vignoble par une marque le texte de l'étiquette par du droit d'auteur…",
 	"Le contrat de travail de Jean prévoit que les frais professionnels de déplacement seront à la charge du salarié (Jean).":"Ceci est une disposition qui n'est pas licite ; c'est à l'entreprise de prendre les frais en charge, La disposition ne s'applique pas (illicite) mais le contrat reste valable, Jean peut faire appel aux Prud'hommes pour neutraliser cette disposition",
 	"Les idées sont elles protégeables ?": "Non",
 	"Le droit de créance est un droit réel":"Faux",
-	"Depuis le 1e mars 2020, vous êtes en pourparlers avec un fournisseur pour produire un nouveau composant unique pour lequel vous souhaitez déposer un brevet. Vous n’avez pas conclu de convention de confidentialité. Que risquez-vous ?":"Vous faire « soufler » le brevet par votre fournisseur, Ne plus avoir le droit de déposer le brevet car il y a divulgation"
+	"Depuis le 1e mars 2020, vous êtes en pourparlers avec un fournisseur pour produire un nouveau composant unique pour lequel vous souhaitez déposer un brevet. Vous n’avez pas conclu de convention de confidentialité. Que risquez-vous ?":"Vous faire « soufler » le brevet par votre fournisseur, Ne plus avoir le droit de déposer le brevet car il y a divulgation",
+	"L'arbitrage a comme avantage d'être plus rapide que le recours judiciaire":"Vrai",
+	"Un marque de nature à choquer, à caractère racial ou obscène est":"contraire à l'ordre public et aux bonnes mœurs",
 };
 
 function jaccardSimilarity(str1, str2) {
