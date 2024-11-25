@@ -757,7 +757,7 @@ const questionsData = {
 		"limité au temps d'utilisation des données dans la base active puis à la conservation de ces données dans le cadre d'un archivage intermédiaire",
 	"Le Comité européen de protection des données est...": "L'entité qui remplace le G29 au niveau européen",
 	"Le respect de l’obligation de sécurité s’apprécie...":
-		"En continu, en fonction de l’évolution des technologies et des techniques de fraude",
+		"En continu en fonction de l’évolution des technologies et des techniques de fraude",
 	"Les droits patrimoniaux de l'auteur comprennent": "Le droit de représentation,le droit de reproduction",
 	"L'auteur unique d'une oeuvre peut être une entreprise": "Faux",
 	"Les droits intellectuels de l'auteur peuvent faire l'objet d'une vente": "Faux",
@@ -790,7 +790,7 @@ const questionsData = {
 	"Une marque est jugée déceptive si elle est": "trompeuse",
 	"Qu'est ce qu'une marque ?": "un signe distinctif qui désigne des produits ou service d'une entreprise",
 	"Vous vous appelez Jean Halliday, et vous exploitez une société fabriquant des scooters. Pouvez-vous déposer la marque « J. Halliday » pour des scooters, motos, ou tout autre engin à moteur ?":
-		"Non car il existe un risque de confusion avec Johnny Halliday, qui est le pseudonyme d’un chanteur célèbre",
+		"Non car il existe un risque de confusion avec Johnny Halliday qui est le pseudonyme d’un chanteur célèbre",
 	"Quels sont les éléments susceptibles de constituer des droits antérieurs à celui du dépôt d'une marque":
 		"La dénomination sociale,Une autre marque,Un nom de domaine",
 	"Combien de temps dure le droit sur une marque ?": "10 ans renouvelable indéfiniment",
@@ -962,7 +962,8 @@ const questionsData = {
 	"L'arbitrage a comme avantage d'être plus rapide que le recours judiciaire":"Vrai",
 	"Un marque de nature à choquer, à caractère racial ou obscène est":"contraire à l'ordre public et aux bonnes mœurs",
 	"Quelle responsabilité pouvez-vous invoquer … Une bataille de polochons entre enfants de 12 ans tourne mal à l’internat et il en ressort deux blessés." : "Responsabilité de l’établissement",
-	"Pour que Peugeot puisse déposer son jingle sonore, l'entreprise a" : "représenté graphiquement la musique (partition)"
+	"Pour que Peugeot puisse déposer son jingle sonore, l'entreprise a" : "représenté graphiquement la musique (partition)",
+	"Par défaut, comment est protégé un logiciel ?": "Par le droit d’auteur",
 };
 
 function jaccardSimilarity(str1, str2) {
