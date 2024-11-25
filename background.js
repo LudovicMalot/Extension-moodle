@@ -640,7 +640,7 @@ const questionsData = {
 	"En cas de non-conformité au RGPD, les entreprises risquent une amende pouvant aller jusqu'à...":
 		"20 millions d'euros ou 4% du chiffre d'affaires annuel mondial",
 	"La mission du DPO est principalement une mission de contrôle. Mais comment s'exerce-t-elle ?":
-		"Le DPO doit contrôler le respect du RGPD, ce qui implique qu’il peut contrôler la conformité d’un traitement avant qu’il ne soit mis en œuvre ou à postériori",
+		"Le DPO doit contrôler le respect du RGPD ce qui implique qu’il peut contrôler la conformité d’un traitement avant qu’il ne soit mis en œuvre ou à postériori",
 	"Le RGPD indique qu'il faut obtenir une autorisation spéciale pour collecter le n° de sécurité sociale d'une personne":
 		"Faux",
 	"En cas d’absence d’information du consommateur sur le droit de rétractation, celui-ci peut être exercé par l’internaute durant un délai de :":
@@ -734,7 +734,7 @@ const questionsData = {
 	"Que trouve t on dans les droits patrimoniaux":
 		"Le droit de reproduction, le droit de représentation, le droit de suite",
 	"Est-on obligé de déposer une œuvre pour jouir d’un droit d’auteur":
-		"Absolument pas, l’auteur jouit du droit d’auteur du seul fait de la création de l’œuvre",
+		"Absolument pas l’auteur jouit du droit d’auteur du seul fait de la création de l’œuvre",
 	"L'action en concurrence déloyale protège": "Les droits du producteur d'une base de données",
 	"Le droit de divulgation est un attribut du droit patrimonial": "Faux",
 	"Le droit d’auteur comprend": "Droits patrimoniaux et moraux",
@@ -927,8 +927,15 @@ const questionsData = {
 	"Quelles sont les relations du DPO avec l'autorité de contrôle ?":"Le DPO fait office de point de contact avec la CNIL ce qui signifie qu’il est la personne qui peut saisir la CNIL pour toute consultation suite à une PIA ou autres sujets qui se posent au responsable de traitement.",
 	"L'action en contrefaçon protège":"Les brevets, Les marques, Le droit d’auteur, l'enseigne, le nom de domaine",
 	"Le lieu de travail stipulé au contrat du salarié":"N'est qu'indicatif",
-	"A votre avis, ces clauses ont elles été jugées comme abusives ?":"téléphone sans fil à livrer → Oui abusif, Réservation d'une place d'avion → Oui abusif",
-	"Le droit du travail s’applique au stagiaire.":"Faux"
+	"A votre avis, ces clauses ont elles été jugées comme abusives ?":"téléphone sans fil à livrer → Oui abusif, Réservation d'une place d'avion → Oui abusif,impossibilité de livraison → Non n'a pas été jugée abusive, Changement de la couleur → Non n'a pas été jugée abusive, annuler un séjour au Tibert → Oui abusif",
+	"Le droit du travail s’applique au stagiaire.":"Faux",
+	"L'arbitre rend sa sentence en équité et non en droit":"Vrai",
+	"Après 5 ans d'ancienneté, vous souhaitez 6 mois de congé sabbatique. Votre employeur peut s'y opposer catégoriquement":"Faux",
+	"Le contrat a force de loi et s'impose au juge":"Vrai",
+	"Un décret peut émaner ...":"Des ministres, Du Président de la République",
+	"Le contrat de travail doit faire l’objet d’un écrit":"Vrai",
+	"Vous faites votre stage de 6 mois dans la Silicon Valley. Vous serez rémunéré 15% du SMIC.":"Faux",
+	"Un règlement européen":"crée une règle juridique de portée générale dans toute la communauté",
 };
 
 function jaccardSimilarity(str1, str2) {
