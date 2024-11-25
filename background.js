@@ -326,13 +326,13 @@ const questionsData = {
 	"Le principe de territorialité ne peut rien contre internet.": "Faux",
 	"La loi émane de": "Parlement",
 	"La coutume est un autre nom pour Usage": "Vrai",
-	"Une directive européenne": "crée une règle juridique de portée générale dans toute la communauté, s'adresse à plusieurs états membres, fixe aux états un résultat à atteindre",
+	"Une directive européenne": "s'adresse à plusieurs états membres, fixe aux états un résultat à atteindre",
 	"La jurisprudence est l'ensemble des décisions de justice": "Vrai",
 	"Le droit privé comprend": "Le droit civil,Le droit de la consommation,Le droit social",
 	"Qu'est ce que le droit public ?":
 		"L'ensemble des règles gouvernant l'organisation de l'Etat et les rapports qu'il entretient avec les personnes privées",
 	"A quelle branche du droit rattachez-vous les notions exposées ?":
-		"Un divorce ->Droit civil (privé),La mise en location gérance d'un fonds de commerce ->Droit commercial (privé),La nomination d'un inspecteur d'Académie ->Droit administratif (public),Une escroquerie -> Droit pénal (public),Litige entre constructeur automobile et son concessionnaire -> Droit commercial (privé),Un litige entre vous et votre fournisseur d'accès internet -> Droit consommation (privé),La gestion des biens d'un mineurs -> Droit civil (privé),Le non versement d'indemnités de congés payés -> Droit du travail (privé),Le dépôt de bilan d'une entreprise -> Droit commercial (privé)",
+		"Un divorce ->Droit civil (privé),La mise en location gérance d'un fonds de commerce ->Droit commercial (privé),La nomination d'un inspecteur d'Académie ->Droit administratif (public),Une escroquerie -> Droit pénal (public),Litige entre constructeur automobile et son concessionnaire -> Droit commercial (privé),Un litige entre vous et votre fournisseur d'accès internet -> Droit consommation (privé),La gestion des biens d'un mineurs -> Droit civil (privé),Le non versement d'indemnités de congés payés -> Droit du travail (privé),Le dépôt de bilan d'une entreprise -> Droit commercial (privé),taxe foncière-> Droit fiscal (public),taux d'accident du travail->Droit social (privé)",
 	"La règle de droit peut être :": "impérative : on ne peut s'y soustraire,supplétive",
 	"Qui peut prononcer une sanction au pénal ? (un mot)": "juge",
 	"L'usage est l'ensemble des pratiques d'un domaine particulier qui a force de loi": "Vrai",
@@ -349,7 +349,7 @@ const questionsData = {
 	"Les juridictions de droit commun sont compétentes...":
 		"Pour tous les litiges non expressément attribués à une autre juridiction",
 	"Quelle est la juridiction compétente pour trancher le litige ?":
-		"Dette 900€ particuliers -> Trib. proximité,Viol -> Cour d'Assises,Litige gérant/apprenti -> C. Prud'hommes,Tapage nocturne -> Trib. Police,Escroquerie -> Trib. correctionnel,Litige constructeur/concessionnaire -> Trib. Commerce,Litige FAI 450€ -> Trib. proximité,Contestation taux AT Sécu -> TASS,Taxe foncière impayée (entreprise) -> Trib. admin,Location gérance fonds commerce -> Trib. Commerce,Garde enfants (divorce) -> Trib. judiciaire,Licenciement -> C. Prud'hommes,Différend voisins (mur mitoyen) -> Trib. judiciaire,Accident auto (dégâts matériels) -> Trib. judiciaire,Nomination inspecteur Académie -> Trib. admin,Divorce -> Trib. judiciaire,Dépôt de bilan -> Trib. Commerce,Injures publiques -> Trib. Police,Indemnités congés payés -> C. Prud'hommes,assassinat → Cour d'Assises,grossiste et un détaillant → Tribunal de Commerce,brevet → Tribunal judiciaire,résultats année uni → Tribunal administratif",
+		"Dette 900€ particuliers -> Trib. proximité,Viol -> Cour d'Assises,Litige gérant/apprenti -> C. Prud'hommes,Tapage nocturne -> Trib. Police,Escroquerie -> Trib. correctionnel,Litige constructeur/concessionnaire -> Trib. Commerce,Litige FAI 450€ -> Trib. proximité,Contestation taux AT Sécu -> TASS,Taxe foncière impayée (entreprise) -> Trib. admin,Location gérance fonds commerce -> Trib. Commerce,Garde enfants (divorce) -> Trib. judiciaire,Licenciement -> C. Prud'hommes,Différend voisins (mur mitoyen) -> Trib. judiciaire,Accident auto (dégâts matériels) -> Trib. judiciaire,Nomination inspecteur Académie -> Trib. admin,Divorce -> Trib. judiciaire,Dépôt de bilan -> Trib. Commerce,Injures publiques -> Trib. Police,Indemnités congés payés -> C. Prud'hommes,assassinat → Cour d'Assises,grossiste et un détaillant → Tribunal de Commerce,brevet → Tribunal judiciaire,résultats année uni → Tribunal administratif,bulletins de salaires → Conseil de Prud'hommes, publication dans Paris Match → Tribunal judiciaire, téléphone au volant -> Tribunal de Police, évaluation d'une maison -> Tribunal judiciaire",
 	"Les juridictions suivantes sont composées de magistrats professionnels (nommés par l'Etat) uniquement":
 		"Tribunal judiciaire,Tribunal correctionnel,Cour d'appel",
 	"Il existe 2 (deux) ordres de juridictions. Lesquels ?": "Administratif,Judiciaire",
@@ -517,7 +517,7 @@ const questionsData = {
 	"La clause de non concurrence insérée dans le contrat sans contrepartie financière rend illicite le contrat de travail":
 		"Faux",
 	"Un salarié, sans clause de mobilité contractuelle, refuse une mutation…":
-		"Il ne fait qu'exercer un droit, sans sanction, par principe,Si l'employeur invoque un motif économique, il risque un licenciement économique",
+		"Il ne fait qu'exercer un droit sans sanction par principe,Si l'employeur invoque un motif économique il risque un licenciement économique",
 	"La clause d’invention sert à attribuer le travail du salarié à l’employeur": "Faux",
 	"C'est le CSE qui est compétent pour négocier un accord sur le télétravail": "Faux",
 	"Le télétravail repose sur le volontariat, et l’employeur ne peut pas l’imposer au salarié.": "Faux",
@@ -780,7 +780,7 @@ const questionsData = {
 	"Vous avez inventé un mécanisme en tant que directeur de la R&D au sein de votre entreprise. Votre employeur pourra-t-il déposer le brevet au nom de la société ?":
 		"Oui à condition d’indiquer votre nom en qualité d’inventeur,Oui à condition de vous payer une rémunération supplémentaire",
 	"A quoi sert un brevet ?": "À protéger une invention",
-	"La propriété industrielle …": "s'applique aux brevets, marques et dessins et modèles",
+	"La propriété industrielle …": "s'applique aux brevets marques et dessins et modèles",
 	"à votre avis, les noms suivants sont-ils des marques ou des noms communs ?":
 		"compas -> nom commun,bic -> marque,vélo -> nom commun, thermos → marque, pédalo → marque, mobylette → marque, scotch -> marque, feutre -> nom commun, anorak → nom commun, klaxon → marque, vélux → marque, kärcher → marque,  texto → nom commun, frisbee → marque, walkman → marque,cellophane → nom commun,extincteur → nom commun,expresso → nom commun,superglue → marque, sonotone → marque, expresso → nom commun",
 	"Vous souhaitez déposer la marque « Noix de Grenoble » pour des produits d’hygiène. Pouvez-vous le faire sans risque ?":
@@ -904,7 +904,7 @@ const questionsData = {
 	"Les droits moraux de l'auteur": "Appartiennent toujours uniquement à l'auteur",
 	"Pour qu'elle soit valable, une marque doit être":"disponible distinctive licite (dont non déceptive)",
 	"Une réplique de film peut être une œuvre en soi":"Vrai",
-	"Parmi les situations suivantes, a-t-on à faire à la responsabilité civile délictuelle ou contractuelle ou encore les 2":"piéton → Délit, volley → Délit, chaudière → Contrat, avion → Les 2,huîtres pas fraîches  → Contrat, panneau publicitaire → Délit (civil)",
+	"Parmi les situations suivantes, a-t-on à faire à la responsabilité civile délictuelle ou contractuelle ou encore les 2":"piéton → Délit, volley → Délit, chaudière → Contrat, avion → Les 2,huîtres pas fraîches  → Contrat, panneau publicitaire → Délit (civil), plombier casse le lavabo → Contrat, enfants mettent le feu → Délit (civil)",
 	"Depuis la loi Cherpion, tout stage doit faire l'objet d'une rémunération":"Faux",
 	"Vous devrez faire les mêmes horaires de travail que les salariés de l’entreprise où vous faites votre stage.":"Vrai",
 	"Vous n’avez pas de stage au mois de mars. L’école doit vous aider à en trouver un":"Vrai",
@@ -949,7 +949,16 @@ const questionsData = {
 	"La démission du salarié est toujours possible":"Vrai",
 	"Une clause de non concurrence":"Doit faire l'objet d'une contrepartie financière",
 	"Dans le cadre d’un contrat passé entre votre agence de communication et un grand groupe industriel, vous avez créé un nouveau logo pour votre client. Celui-ci peut, une fois le contrat exécuté, utiliser librement ce logo et le déposer comme marque puisqu'il a payé…":"Faux",
-	"La période d'essai":"A une durée limitée par la loi, Peut être renouvelée"
+	"La période d'essai":"A une durée limitée par la loi, Peut être renouvelée",
+	"Une clause de mobilité doit":"Préciser les zones géographiques possibles de mutation, Servir les intérêts de l'entreprise, Figurer au contrat de travail",
+	"Associer la rédaction de la clause à sa description": "retard de livraison prix 3% par semaine → Pénale, impossibilité d'exécution le contrat sera résolu → Résolutoire, explosion en vol lors du lancement ArianeGroup fabrication des satellites → Limitative de responsabilité, difficulté d'exécution renégocier les prix → Hardship, perte bagages compagnie  indemnité → Limitative de responsabilité, litige recours à un arbitre → Compromissoire",
+	"les droits patrimoniaux de l'auteur" : "sont limités dans le temps, sont transmissibles aux héritiers, peuvent faire l'objet d'une cession",
+	"Une source de niveau inférieur ne peut contrevenir à une source de niveau supérieur":"Vrai",
+	"La forme originale d'une bouteille de vin est protégée au titre":"du dessin et modèles, dessin et modèle mais le vin lui-même peut être protégé par une AOP le nom du vignoble par une marque le texte de l'étiquette par du droit d'auteur…",
+	"Le contrat de travail de Jean prévoit que les frais professionnels de déplacement seront à la charge du salarié (Jean).":"Ceci est une disposition qui n'est pas licite ; c'est à l'entreprise de prendre les frais en charge, La disposition ne s'applique pas (illicite) mais le contrat reste valable, Jean peut faire appel aux Prud'hommes pour neutraliser cette disposition",
+	"Les idées sont elles protégeables ?": "Non",
+	"Le droit de créance est un droit réel":"Faux",
+	"Depuis le 1e mars 2020, vous êtes en pourparlers avec un fournisseur pour produire un nouveau composant unique pour lequel vous souhaitez déposer un brevet. Vous n’avez pas conclu de convention de confidentialité. Que risquez-vous ?":"Vous faire « soufler » le brevet par votre fournisseur, Ne plus avoir le droit de déposer le brevet car il y a divulgation"
 };
 
 function jaccardSimilarity(str1, str2) {
