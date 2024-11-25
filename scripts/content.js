@@ -3,8 +3,6 @@ const uiDiv = document.createElement("div");
 uiDiv.id = "myExtensionUi";
 Object.assign(uiDiv.style, {
 	position: "fixed",
-	top: "15%",
-	right: "0",
 	zIndex: "9999",
 	backgroundColor: "#ffffff",
 	borderRadius: "1rem",
@@ -386,13 +384,12 @@ function drag(e) {
 
         xOffset = currentX;
         yOffset = currentY;
-
         // Update the position using transform
         uiDiv.style.transform = `translate(${currentX}px, ${currentY}px)`;
         
         // Save position to chrome storage
-        const rightPercentage = (window.innerWidth - (e.clientX)) / window.innerWidth * 100;
-        const topPercentage = (e.clientY) / window.innerHeight * 100;
+        const rightPercentage = (window.innerWidth - 143 - (e.clientX)) / window.innerWidth * 100;
+        const topPercentage = (e.clientY - 11) / window.innerHeight * 100;
         
         chrome.storage.sync.set({
             uiDivPosition: {

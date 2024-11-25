@@ -904,7 +904,7 @@ const questionsData = {
 	"Les droits moraux de l'auteur": "Appartiennent toujours uniquement à l'auteur",
 	"Pour qu'elle soit valable, une marque doit être":"disponible distinctive licite (dont non déceptive)",
 	"Une réplique de film peut être une œuvre en soi":"Vrai",
-	"Parmi les situations suivantes, a-t-on à faire à la responsabilité civile délictuelle ou contractuelle ou encore les 2":"piéton → Délit, volley → Délit, chaudière → Contrat, avion → Les 2",
+	"Parmi les situations suivantes, a-t-on à faire à la responsabilité civile délictuelle ou contractuelle ou encore les 2":"piéton → Délit, volley → Délit, chaudière → Contrat, avion → Les 2,huîtres pas fraîches  → Contrat, panneau publicitaire → Délit (civil)",
 	"Depuis la loi Cherpion, tout stage doit faire l'objet d'une rémunération":"Faux",
 	"Vous devrez faire les mêmes horaires de travail que les salariés de l’entreprise où vous faites votre stage.":"Vrai",
 	"Vous n’avez pas de stage au mois de mars. L’école doit vous aider à en trouver un":"Vrai",
@@ -936,6 +936,12 @@ const questionsData = {
 	"Le contrat de travail doit faire l’objet d’un écrit":"Vrai",
 	"Vous faites votre stage de 6 mois dans la Silicon Valley. Vous serez rémunéré 15% du SMIC.":"Faux",
 	"Un règlement européen":"crée une règle juridique de portée générale dans toute la communauté",
+	"Le droit objectif pourrait s'appeler : \"les règles de la société\"":"Vrai",
+	"Sans clause de mobilité, une mutation peut être refusée par le salariée en cas…":"d'affectation hors zone géographique habituelle de travail, de motifs tirés de la vie personnelle ou familiale, de mauvaise foi de l'employeur",
+	"S’agissant d’une œuvre, qu’est ce que la contrefaçon ?":"Une reproduction représentation toute utilisation non autorisée, Un téléchargement illégal, La vente de tee-shirts de marque à la sauvette",
+	"Il arrive qu'une loi pénale ait un effet rétroactif":"Vrai",
+	"Vous n'avez pas fait votre stage de 2e année à l'école (3 mois de stage dans le projet de scolarité), pas de problème, vous rallongerez votre stage de 3e année (5 mois) auprès de l'entreprise qui vous accueillera.":"Faux","Vous pouvez refuser la visite médicale d’embauche au prétexte que vous êtes allé chez votre médecin référent":"Faux",
+	"Une offre d’emploi précisant «vous êtes âgé de 25 à 35 ans maximum » est illicite":"Vrai"
 };
 
 function jaccardSimilarity(str1, str2) {
