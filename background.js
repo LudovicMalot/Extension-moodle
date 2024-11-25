@@ -349,7 +349,7 @@ const questionsData = {
 	"Les juridictions de droit commun sont compétentes...":
 		"Pour tous les litiges non expressément attribués à une autre juridiction",
 	"Quelle est la juridiction compétente pour trancher le litige ?":
-		"Dette 900€ particuliers -> Trib. proximité,Viol -> Cour d'Assises,Litige gérant/apprenti -> C. Prud'hommes,Tapage nocturne -> Trib. Police,Escroquerie -> Trib. correctionnel,Litige constructeur/concessionnaire -> Trib. Commerce,Litige FAI 450€ -> Trib. proximité,Contestation taux AT Sécu -> TASS,Taxe foncière impayée (entreprise) -> Trib. admin,Location gérance fonds commerce -> Trib. Commerce,Garde enfants (divorce) -> Trib. judiciaire,Licenciement -> C. Prud'hommes,Différend voisins (mur mitoyen) -> Trib. judiciaire,Accident auto (dégâts matériels) -> Trib. judiciaire,Nomination inspecteur Académie -> Trib. admin,Divorce -> Trib. judiciaire,Dépôt de bilan -> Trib. Commerce,Injures publiques -> Trib. Police,Indemnités congés payés -> C. Prud'hommes",
+		"Dette 900€ particuliers -> Trib. proximité,Viol -> Cour d'Assises,Litige gérant/apprenti -> C. Prud'hommes,Tapage nocturne -> Trib. Police,Escroquerie -> Trib. correctionnel,Litige constructeur/concessionnaire -> Trib. Commerce,Litige FAI 450€ -> Trib. proximité,Contestation taux AT Sécu -> TASS,Taxe foncière impayée (entreprise) -> Trib. admin,Location gérance fonds commerce -> Trib. Commerce,Garde enfants (divorce) -> Trib. judiciaire,Licenciement -> C. Prud'hommes,Différend voisins (mur mitoyen) -> Trib. judiciaire,Accident auto (dégâts matériels) -> Trib. judiciaire,Nomination inspecteur Académie -> Trib. admin,Divorce -> Trib. judiciaire,Dépôt de bilan -> Trib. Commerce,Injures publiques -> Trib. Police,Indemnités congés payés -> C. Prud'hommes,assassinat → Cour d'Assises,grossiste et un détaillant → Tribunal de Commerce,brevet → Tribunal judiciaire,résultats année uni → Tribunal administratif",
 	"Les juridictions suivantes sont composées de magistrats professionnels (nommés par l'Etat) uniquement":
 		"Tribunal judiciaire,Tribunal correctionnel,Cour d'appel",
 	"Il existe 2 (deux) ordres de juridictions. Lesquels ?": "Administratif,Judiciaire",
@@ -782,7 +782,7 @@ const questionsData = {
 	"A quoi sert un brevet ?": "À protéger une invention",
 	"La propriété industrielle …": "s'applique aux brevets, marques et dessins et modèles",
 	"à votre avis, les noms suivants sont-ils des marques ou des noms communs ?":
-		"compas -> nom commun,bic -> marque,vélo -> nom commun, thermos → marque, pédalo → marque, mobylette → marque, scotch -> marque, feutre -> nom commun, anorak → nom commun, klaxon → marque, vélux → marque, kärcher → marque,  texto → nom commun, frisbee → marque, walkman → marque",
+		"compas -> nom commun,bic -> marque,vélo -> nom commun, thermos → marque, pédalo → marque, mobylette → marque, scotch -> marque, feutre -> nom commun, anorak → nom commun, klaxon → marque, vélux → marque, kärcher → marque,  texto → nom commun, frisbee → marque, walkman → marque,cellophane → nom commun,extincteur → nom commun,expresso → nom commun ",
 	"Vous souhaitez déposer la marque « Noix de Grenoble » pour des produits d’hygiène. Pouvez-vous le faire sans risque ?":
 		"Non, car il s’agit précisément d’une AOC",
 	"L'INPI vérifie la disponibilité de la marque": "Faux",
@@ -919,7 +919,7 @@ const questionsData = {
 	"La marque fait partie du droit":"de la propriété intellectuelle, de la propriété industrielle",
 	"Quel est l'âge minimum légal pour travailler, en France ?":"14 ans",
 	"Le Droit se définit comme un système de règles et de solutions organisant la vie en société.":"Vrai",
-	"L'arbitrage est possible pour la plupart des litiges (sauf la famille)":"Vrai",
+	"L'arbitrage est possible pour la plupart des litiges (sauf la famille)":"Faux",
 	"La jurisprudence considère qu’une photo est originale au travers de": "La lumière la mise en scène le cadrage les contrastes les décors…",
 	"Arthur, embauché depuis 6 mois en tant que technicien de maintenance (non cadre) se voit proposer 2h supplémentaire à effectuer pendant les 2 prochaines semaines. Il refuse de les effectuer. Il a tout à fait raison de refuser d'effectuer des heures supplémentaires. La loi lui donne le choix.":"Faux", 
 	"L'arbitrage a comme avantage d'être secret alors que le recours judiciaire entraîne une procédure publique":"Vrai",
