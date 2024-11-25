@@ -3,7 +3,7 @@ const questionsData = {
 	"Les obligations naissent":
 		"de faits involontaires nommés délits civilis, de la loi, d'actes volontaires nommés contrats",
 	'Désormais, les faits juridiques sont définis "par défaut"': "Faux",
-	"Je suis un lien de droit qui se crée à cause d'un évènement volontaire ou involontaire, qui suis-je ?": "Obligation",
+	"Je suis un lien de droit qui se crée à cause d'un évènement volontaire ou involontaire, qui suis-je ?": "Une obligation",
 	"Des enfants mettent le feu à un champs de blé en jouant avec un briquet": "Délit (civil)",
 	"Le plombier casse le lavabo de la salle de bain qu'il débouchait": "Contrat",
 	"La responsabilité civile peut être invoquée en l'absence de faute": "Vrai",
@@ -122,9 +122,9 @@ const questionsData = {
 	'Les incoterms sont des clauses réglant le transfert de propriété et des risques, rédigées de manière "standard" pour faciliter les échanges internationaux.':
 		"Vrai",
 	"Modification des caractéristiques du téléphone sans fil à livrer, en fonction des produits disponibles":
-		"Oui, abusif",
+		"Oui abusif",
 	"Réservation d'une place d'avion sur un vol déterminé et possibilité d'annulation juste avant le décollage par la compagnie aérienne":
-		"Oui, abusif",
+		"Oui abusif",
 	"Les marchandises resteront la propriété du vendeur jusqu'au complet paiement du prix": "Réserve de propriété",
 	"En cas de retard de paiement, la somme due sera majorée de 5% par quinzaine de retard": "Pénale",
 	"Le contrat prendra effet dès l'obtention du prêt": "Suspensive",
@@ -145,7 +145,7 @@ const questionsData = {
 		"Vrai",
 	"Une clause d'un contrat, par nature, doit être écrite.": "Vrai",
 	"Une agence de voyage se réserve la possibilité d'annuler un séjour au Tibert, 5 jours avant le départ, en fonction du nombre d'inscrits":
-		"Oui, abusif,",
+		"Oui abusif,",
 	"Changement de la couleur d'un véhicule neuf à la livraison en fonction des disponibilités du constructeur":
 		"Non, n'a pas été jugée abusive",
 	"En cas d'impossibilité de livraison de l'article demandé, remplacement par un produit de fonctionnalité et qualité supérieure sans supplément de prix":
@@ -295,7 +295,7 @@ const questionsData = {
 	"Le droit d'auteur est un droit patrimonial": "Vrai",
 	"Le droit objectif comprend...": "Les droits administratifs,La Constitution",
 	"Associer les droits énoncés à sa catégorie : droits extrapatrimoniaux ou droits patrimoniaux":
-		"liberté d'ex -> extrap,vie privée -> extra,créance -> patri",
+		"liberté d'ex -> extrap,vie privée -> extra,créance -> patri, droits familiaux → extrap, droit de propriété → patri, image -> extrap",
 	"Dans un contrat, vous pouvez céder votre droit à l'honneur": "Faux",
 	"Lorsque vous faites valoir un droit, il est entendu que vous devez être de bonne foi": "VRAI",
 	"En droit civil, depuis 2015, les animaux sont des...": "êtres sensibles",
@@ -307,7 +307,7 @@ const questionsData = {
 	"Une chose peut être propriétaire d'une autre chose. Par exemple, un chat peut être propriétaire d'une maison":
 		"Faux",
 	"Les biens énoncés ci-dessous sont-ils meubles ou immeubles ?":
-		"Les fauteuils d'un cinéma -> immeuble,Un réfrigérateur -> Meuble,Une action de SA -> Meuble,Un verger -> immeuble,Un mobilhome -> Meuble,Un terrain -> immeuble",
+		"Les fauteuils d'un cinéma -> immeuble,Un réfrigérateur -> Meuble,Une action de SA -> Meuble,Un verger -> immeuble,Un mobilhome -> Meuble,Un terrain -> immeuble,Une marque → Meuble, Un four à pain dans une boulangerie → immeuble, Une automobile → Meuble",
 	"Les biens énoncés ci-dessous sont-ils fongibles ou non fongibles ?":
 		"Une bouteille de gaz à la station service -> Fongible,Une oeuvre d'art -> Non fongible,Un quintal de blé -> Fongible, x chez Ikéa -> Fongible, sculpture x -> Non fongible,véhicule occasion -> Non fongible,Une sculpture de Modigliani -> Non fongible",
 	"A priori, le droit défend vos libertés individuelles.": "Vrai",
@@ -326,7 +326,7 @@ const questionsData = {
 	"Le principe de territorialité ne peut rien contre internet.": "Faux",
 	"La loi émane de": "Parlement",
 	"La coutume est un autre nom pour Usage": "Vrai",
-	"Une directive européenne": "crée une règle juridique de portée générale dans toute la communauté",
+	"Une directive européenne": "crée une règle juridique de portée générale dans toute la communauté, s'adresse à plusieurs états membres, fixe aux états un résultat à atteindre",
 	"La jurisprudence est l'ensemble des décisions de justice": "Vrai",
 	"Le droit privé comprend": "Le droit civil,Le droit de la consommation,Le droit social",
 	"Qu'est ce que le droit public ?":
@@ -497,7 +497,7 @@ const questionsData = {
 		"vrai",
 	"La visite médicale d'embauche reste possible": "Vrai",
 	"Le contrat de travail, conclu en France, est rédigé":
-		"En français et dans la langue du salarié étranger, si ce dernier en fait la demande,En français obligatoirement",
+		"En français et dans la langue du salarié étranger si ce dernier en fait la demande,En français obligatoirement",
 	"Hors clause spécifique au contrat de travail initial, une affectation temporaire en dehors du lieu de travail habituel …":
 		"Ne peut être refusée si elle est raisonnable et justifiée par un besoin de l'entreprise",
 	"Vous pouvez prendre vos congés payés quand vous le souhaitez": "Faux",
@@ -775,14 +775,14 @@ const questionsData = {
 	"Les attributs extrapatrimoniaux du droit d'auteur se prescrivent par": "Jamais",
 	"Il est possible de déposer un brevet après avoir exposé le mécanisme à breveter lors d'une conférence.": "Faux",
 	"Combien de temps dure un brevet ?":
-		"Le nombre d’années correspondant aux annuités payées, dans la limite de 20 ans.",
+		"Le nombre d’années correspondant aux annuités payées dans la limite de 20 ans.",
 	"Les conditions de brevetabilité sont": "nouveauté,susceptible d'application industrielle,non évident",
 	"Vous avez inventé un mécanisme en tant que directeur de la R&D au sein de votre entreprise. Votre employeur pourra-t-il déposer le brevet au nom de la société ?":
-		"Oui, à condition d’indiquer votre nom en qualité d’inventeur,Oui, à condition de vous payer une rémunération supplémentaire",
+		"Oui à condition d’indiquer votre nom en qualité d’inventeur,Oui à condition de vous payer une rémunération supplémentaire",
 	"A quoi sert un brevet ?": "À protéger une invention",
 	"La propriété industrielle …": "s'applique aux brevets, marques et dessins et modèles",
 	"à votre avis, les noms suivants sont-ils des marques ou des noms communs ?":
-		"compas -> nom commun,bic -> marque,vélo -> nom commun, thermos → marque, pédalo → marque, mobylette → marque, scotch -> marque, feutre -> nom commun, anorak → nom commun,klaxon → marque, vélux → marque, kärcher → marque",
+		"compas -> nom commun,bic -> marque,vélo -> nom commun, thermos → marque, pédalo → marque, mobylette → marque, scotch -> marque, feutre -> nom commun, anorak → nom commun, klaxon → marque, vélux → marque, kärcher → marque,  texto → nom commun, frisbee → marque, walkman → marque",
 	"Vous souhaitez déposer la marque « Noix de Grenoble » pour des produits d’hygiène. Pouvez-vous le faire sans risque ?":
 		"Non, car il s’agit précisément d’une AOC",
 	"L'INPI vérifie la disponibilité de la marque": "Faux",
@@ -890,6 +890,45 @@ const questionsData = {
 	"Vous devez vous adresser à l'inspection du travail car vous estimez courir un risque en travaillant, risque dont votre employeur ne veut pas tenir compte, vous vous adressez à ":
 		"la DDETS, au niveau du département",
 	"L'organisme collecteur des cotisations sociales est en France": "L'URSSAF",
+	"Un nom de domaine est considéré comme une marque": "Faux",
+	"La règle de droit a une portée personnelle": "Faux",
+	"L'obligation d'assurer la sécurité du salarié lors de l'exécution de son contrat de travail est une obligation de…":
+		"Faire, Résultat",
+	"Faire des copies d'un original d'une œuvre":
+		"n'est possible que pour un usage privé, peut être interdit par l'auteur",
+	"La loi interdit l’embauche à l’issue d’un stage": "Faux",
+	"La « mise au placard » d’un salarié par l’employeur est possible":"Faux",
+	"Légalement, pour qu'un contrat de travail soit reconnu, il est nécessaire que": "3 conditions soient cumulativement remplies : prestation rémunération et subordination",
+	"La règle de droit qui se dégage spontanément des habitudes de la société et devient obligatoire est...":"un usage, La coutume",
+	"Pour être titulaire de droits sur une œuvre, il faut la déposer auprès d'un organisme officiel ?":"non",
+	"Les droits moraux de l'auteur": "Appartiennent toujours uniquement à l'auteur",
+	"Pour qu'elle soit valable, une marque doit être":"disponible distinctive licite (dont non déceptive)",
+	"Une réplique de film peut être une œuvre en soi":"Vrai",
+	"Parmi les situations suivantes, a-t-on à faire à la responsabilité civile délictuelle ou contractuelle ou encore les 2":"piéton → Délit, volley → Délit, chaudière → Contrat, avion → Les 2",
+	"Depuis la loi Cherpion, tout stage doit faire l'objet d'une rémunération":"Faux",
+	"Vous devrez faire les mêmes horaires de travail que les salariés de l’entreprise où vous faites votre stage.":"Vrai",
+	"Vous n’avez pas de stage au mois de mars. L’école doit vous aider à en trouver un":"Vrai",
+	"L'arbitrage a comme avantage d'être moins coûteux que le recours judiciaire":"Faux",
+	"L'arbitrage est un mode de règlement des conflits valable uniquement sur un territoire donné":"Faux",
+	"Un stage de 6 semaines ne donne pas lieu à rémunération":"Vrai",
+	"Un seul item peut faire l’objet de plusieurs droits de propriété intellectuelle ?":"Oui",
+	"La conciliation est un mode juridictionnel de règlement des conflits":"Faux",
+	"Classer le contrat décrit selon les différents critères demandés dans le tableau L'achat quotidien de votre pain dans votre boulangerie préférée":"[principal] [consensuel][synallagmatique] [adhésion] [onéreux] [exécution instantanée]",
+	"La clause de mobilité peut obliger un salarié à déménager dans les 8 jours":"Faux",
+	"Une loi a une force obligatoire à compter ...":"de sa publication",
+	"La marque fait partie du droit":"de la propriété intellectuelle, de la propriété industrielle",
+	"Quel est l'âge minimum légal pour travailler, en France ?":"14 ans",
+	"Le Droit se définit comme un système de règles et de solutions organisant la vie en société.":"Vrai",
+	"L'arbitrage est possible pour la plupart des litiges (sauf la famille)":"Vrai",
+	"La jurisprudence considère qu’une photo est originale au travers de": "La lumière la mise en scène le cadrage les contrastes les décors…",
+	"Arthur, embauché depuis 6 mois en tant que technicien de maintenance (non cadre) se voit proposer 2h supplémentaire à effectuer pendant les 2 prochaines semaines. Il refuse de les effectuer. Il a tout à fait raison de refuser d'effectuer des heures supplémentaires. La loi lui donne le choix.":"Faux", 
+	"L'arbitrage a comme avantage d'être secret alors que le recours judiciaire entraîne une procédure publique":"Vrai",
+	"Un travailleur indépendant…":"n'est pas soumis à un lien de subordination, exerce des activités intellectuelles ou commerciales",
+	"Quelles sont les relations du DPO avec l'autorité de contrôle ?":"Le DPO fait office de point de contact avec la CNIL ce qui signifie qu’il est la personne qui peut saisir la CNIL pour toute consultation suite à une PIA ou autres sujets qui se posent au responsable de traitement.",
+	"L'action en contrefaçon protège":"Les brevets, Les marques, Le droit d’auteur, l'enseigne, le nom de domaine",
+	"Le lieu de travail stipulé au contrat du salarié":"N'est qu'indicatif",
+	"A votre avis, ces clauses ont elles été jugées comme abusives ?":"téléphone sans fil à livrer → Oui abusif, Réservation d'une place d'avion → Oui abusif",
+	"Le droit du travail s’applique au stagiaire.":"Faux"
 };
 
 function jaccardSimilarity(str1, str2) {

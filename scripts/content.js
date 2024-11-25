@@ -7,7 +7,6 @@ Object.assign(uiDiv.style, {
 	right: "0",
 	zIndex: "9999",
 	backgroundColor: "#ffffff",
-	transform: "translateY(-15%)",
 	borderRadius: "1rem",
 	width: "280px",
 	padding: "1.5rem",
@@ -18,7 +17,6 @@ Object.assign(uiDiv.style, {
 	gap: ".3rem",
 	boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
 	fontFamily: "'Arial', sans-serif",
-	transition: "all 0.3s ease",
 });
 uiDiv.onclick = (e) => e.stopPropagation();
 chrome.storage.sync.get(["uiDivPosition"], function (result) {
@@ -43,7 +41,7 @@ Object.assign(selectButton.style, {
 	fontSize: "14px",
 	fontWeight: "bold",
 	cursor: "pointer",
-	transition: "background-color 0.3s, transform 0.1s",
+	transition: "background-color 0.3s",
 	width: "100%",
 	textAlign: "center",
 });
@@ -170,7 +168,7 @@ Object.assign(scormButton.style, {
 	fontSize: "14px",
 	fontWeight: "bold",
 	cursor: "pointer",
-	transition: "background-color 0.3s, transform 0.1s",
+	transition: "background-color 0.3s",
 	width: "100%",
 	textAlign: "center",
 	marginTop: "1rem",
@@ -225,7 +223,10 @@ function handleClick(event) {
 	console.log("Selected question:", questionText);
 
 	chrome.runtime.sendMessage({ type: "get-response-data", data: questionText }, (response) => {
-		answerDiv.innerHTML = "- " + response.data.replace(/,/g, "<br> - ");
+		answerDiv.innerHTML = "- " + response.data
+  .split(',')
+  .sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()))
+  .join('<br> - ');
 		questionDiv.innerHTML = response.question;
 		let responses = response.data.split(",");
 
@@ -327,6 +328,90 @@ function updateEventListeners() {
 	dynamicDocument.addEventListener("click", handleClick);
 	dynamicDocument.addEventListener("mousemove", handleMouseMove);
 }
+
+const dragHandle = document.createElement("div");
+dragHandle.id = "dragHandle";
+Object.assign(dragHandle.style, {
+    width: "100%",
+    height: "20px",
+    backgroundColor: "#e1e1e1",
+    borderRadius: "1rem 1rem 0 0",
+    cursor: "grab",
+    position: "absolute",
+    top: "0",
+    left: "0",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center"
+});
+
+// Add visual indicator for drag handle (3 dots)
+dragHandle.innerHTML = `
+    <div style="display: flex; gap: 4px;">
+        <div style="width: 4px; height: 4px; background: #666; border-radius: 50%;"></div>
+        <div style="width: 4px; height: 4px; background: #666; border-radius: 50%;"></div>
+        <div style="width: 4px; height: 4px; background: #666; border-radius: 50%;"></div>
+    </div>
+`;
+
+// Add drag functionality
+let isDragging = false;
+let currentX;
+let currentY;
+let initialX;
+let initialY;
+let xOffset = 0;
+let yOffset = 0;
+
+dragHandle.addEventListener("mousedown", dragStart);
+document.addEventListener("mousemove", drag);
+document.addEventListener("mouseup", dragEnd);
+
+function dragStart(e) {
+    initialX = e.clientX - xOffset;
+    initialY = e.clientY - yOffset;
+
+    if (e.target === dragHandle || dragHandle.contains(e.target)) {
+        isDragging = true;
+        dragHandle.style.cursor = "grabbing";
+    }
+}
+
+function drag(e) {
+    if (isDragging) {
+        e.preventDefault();
+        
+        currentX = e.clientX - initialX;
+        currentY = e.clientY - initialY;
+
+        xOffset = currentX;
+        yOffset = currentY;
+
+        // Update the position using transform
+        uiDiv.style.transform = `translate(${currentX}px, ${currentY}px)`;
+        
+        // Save position to chrome storage
+        const rightPercentage = (window.innerWidth - (e.clientX)) / window.innerWidth * 100;
+        const topPercentage = (e.clientY) / window.innerHeight * 100;
+        
+        chrome.storage.sync.set({
+            uiDivPosition: {
+                top: topPercentage,
+                right: rightPercentage
+            }
+        });
+    }
+}
+
+function dragEnd() {
+    initialX = currentX;
+    initialY = currentY;
+    isDragging = false;
+    dragHandle.style.cursor = "grab";
+}
+
+// Insert the drag handle as the first child of uiDiv
+uiDiv.insertBefore(dragHandle, uiDiv.firstChild);
 
 // Initial setup of event listeners
 updateEventListeners();
