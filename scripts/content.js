@@ -85,6 +85,8 @@ Object.assign(answerDiv.style, {
 	color: "#27ae60",
 	fontSize: "14px",
 	fontWeight: "bold",
+	maxHeight: "60vh",
+	overflowY: "scroll",
 });
 
 // Append elements to the UI div

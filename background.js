@@ -147,9 +147,9 @@ const questionsData = {
 	"Une agence de voyage se réserve la possibilité d'annuler un séjour au Tibert, 5 jours avant le départ, en fonction du nombre d'inscrits":
 		"Oui abusif,",
 	"Changement de la couleur d'un véhicule neuf à la livraison en fonction des disponibilités du constructeur":
-		"Non, n'a pas été jugée abusive",
+		"Non n'a pas été jugée abusive",
 	"En cas d'impossibilité de livraison de l'article demandé, remplacement par un produit de fonctionnalité et qualité supérieure sans supplément de prix":
-		"Non, n'a pas été jugée abusive",
+		"Non n'a pas été jugée abusive",
 	"Il appartient au créancier d'être vigilant et de réclamer son dû dans les délais": "Vrai",
 	"Le paiement signifie en droit signifie extinction des obligations": "Vrai",
 	"Compenser une créance par une dette est un mode d'extinction des obligations": "Vrai",
@@ -782,15 +782,15 @@ const questionsData = {
 	"A quoi sert un brevet ?": "À protéger une invention",
 	"La propriété industrielle …": "s'applique aux brevets, marques et dessins et modèles",
 	"à votre avis, les noms suivants sont-ils des marques ou des noms communs ?":
-		"compas -> nom commun,bic -> marque,vélo -> nom commun, thermos → marque, pédalo → marque, mobylette → marque, scotch -> marque, feutre -> nom commun, anorak → nom commun, klaxon → marque, vélux → marque, kärcher → marque,  texto → nom commun, frisbee → marque, walkman → marque,cellophane → nom commun,extincteur → nom commun,expresso → nom commun ",
+		"compas -> nom commun,bic -> marque,vélo -> nom commun, thermos → marque, pédalo → marque, mobylette → marque, scotch -> marque, feutre -> nom commun, anorak → nom commun, klaxon → marque, vélux → marque, kärcher → marque,  texto → nom commun, frisbee → marque, walkman → marque,cellophane → nom commun,extincteur → nom commun,expresso → nom commun,superglue → marque, sonotone → marque, expresso → nom commun",
 	"Vous souhaitez déposer la marque « Noix de Grenoble » pour des produits d’hygiène. Pouvez-vous le faire sans risque ?":
-		"Non, car il s’agit précisément d’une AOC",
+		"Non car il s’agit précisément d’une AOC",
 	"L'INPI vérifie la disponibilité de la marque": "Faux",
 	"Il est juridiquement possible de déposer une couleur en tant que marque.": "Vrai",
 	"Une marque est jugée déceptive si elle est": "trompeuse",
 	"Qu'est ce qu'une marque ?": "un signe distinctif qui désigne des produits ou service d'une entreprise",
 	"Vous vous appelez Jean Halliday, et vous exploitez une société fabriquant des scooters. Pouvez-vous déposer la marque « J. Halliday » pour des scooters, motos, ou tout autre engin à moteur ?":
-		"Non, car il existe un risque de confusion avec Johnny Halliday, qui est le pseudonyme d’un chanteur célèbre",
+		"Non car il existe un risque de confusion avec Johnny Halliday, qui est le pseudonyme d’un chanteur célèbre",
 	"Quels sont les éléments susceptibles de constituer des droits antérieurs à celui du dépôt d'une marque":
 		"La dénomination sociale,Une autre marque,Un nom de domaine",
 	"Combien de temps dure le droit sur une marque ?": "10 ans renouvelable indéfiniment",
@@ -941,7 +941,15 @@ const questionsData = {
 	"S’agissant d’une œuvre, qu’est ce que la contrefaçon ?":"Une reproduction représentation toute utilisation non autorisée, Un téléchargement illégal, La vente de tee-shirts de marque à la sauvette",
 	"Il arrive qu'une loi pénale ait un effet rétroactif":"Vrai",
 	"Vous n'avez pas fait votre stage de 2e année à l'école (3 mois de stage dans le projet de scolarité), pas de problème, vous rallongerez votre stage de 3e année (5 mois) auprès de l'entreprise qui vous accueillera.":"Faux","Vous pouvez refuser la visite médicale d’embauche au prétexte que vous êtes allé chez votre médecin référent":"Faux",
-	"Une offre d’emploi précisant «vous êtes âgé de 25 à 35 ans maximum » est illicite":"Vrai"
+	"Une offre d’emploi précisant «vous êtes âgé de 25 à 35 ans maximum » est illicite":"Vrai",
+	"Les droits de représentation correspondent au fait de":"communiquer en direct l'œuvre au public",
+	"La règle de droit sanctionne systématiquement":"Faux",
+	"Si, à la fin de votre premier mois de travail, on vous remet un bulletin de paie et que c'est le seul document remis par l'entreprise depuis votre arrivée, vous êtes":" en CDI",
+	"Ce qu'un contrat a fait, un autre peut le défaire":"Vrai",
+	"La démission du salarié est toujours possible":"Vrai",
+	"Une clause de non concurrence":"Doit faire l'objet d'une contrepartie financière",
+	"Dans le cadre d’un contrat passé entre votre agence de communication et un grand groupe industriel, vous avez créé un nouveau logo pour votre client. Celui-ci peut, une fois le contrat exécuté, utiliser librement ce logo et le déposer comme marque puisqu'il a payé…":"Faux",
+	"La période d'essai":"A une durée limitée par la loi, Peut être renouvelée"
 };
 
 function jaccardSimilarity(str1, str2) {
